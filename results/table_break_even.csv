@@ -1,0 +1,5 @@
+Criterion,Base weight,Break-even weight
+Time,0.35,
+Fare,0.25,0.3824
+Traffic,0.25,
+Availability,0.15,

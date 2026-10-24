@@ -1,0 +1,3 @@
+,Time,Fare,Traffic,Availability,Score,Rank
+Jeepney,0.8,1.0,0.75,0.8,0.838,2
+Shared tricycle,1.0,0.65,1.0,1.0,0.913,1
