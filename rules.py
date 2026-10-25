@@ -80,4 +80,4 @@ def rule_filter(commuter, modes):
     feasible = [m for m in modes if f"Infeasible({m['name']})" not in facts]
     excluded = [m for m in modes if f"Infeasible({m['name']})" in facts]
     return {"feasible": feasible, "excluded": excluded, "facts": facts,
-            "trace": trace, "passes": passes, "notes": notes, "n_rules": len(rules)
+            "trace": trace, "passes": passes, "notes": notes, "n_rules": len(rules)}
