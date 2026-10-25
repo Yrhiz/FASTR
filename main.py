@@ -92,7 +92,7 @@ def main():
     sizes, t_rules, t_wsm = runtime_test()
     for n, tr, tw in zip(sizes, t_rules, t_wsm):
         print(f"  m = {n:>7,d}   rule filtering = {tr*1000:10.3f} ms   WSM = {tw*1000:9.3f} ms")
-    slope = np.polyfit(np.log(sizes[2:]), np.log(np.array(t_rules[2:]) + np.array(t_wsm[2:]), 1)[0]
+    slope = np.polyfit(np.log(sizes[2:]), np.log(np.array(t_rules[2:]) + np.array(t_wsm[2:]), 1))[0]
     print(f"Empirical log-log slope (m >= 1000): {slope:.2f}  (1 = linear growth, 2 = quadratic growth)")
 
     # ---- G. Figures ------------------------------------------------------------
