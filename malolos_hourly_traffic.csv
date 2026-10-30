@@ -1,0 +1,1633 @@
+node_id,node,road,direction,season,hour,period,vph,thesis_color_class,traffic_level_1to5,speed_kmh,delay_factor,confidence,season_factor_basis
+TKY-NB,Tikay,McArthur Highway,NB,regular,0,overnight,600,green,1,57.1,1.051,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,1,overnight,400,green,1,58.1,1.033,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,2,overnight,250,green,1,58.8,1.021,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,3,overnight,200,green,1,59.0,1.016,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,4,overnight,300,green,1,58.5,1.025,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,5,ramp_up,1000,green,1,55.2,1.088,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,6,am_peak,1750,orange,3,51.5,1.164,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,7,am_peak,1900,orange,3,50.8,1.181,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,8,am_peak,2000,orange,3,50.3,1.192,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,9,am_peak,2200,red,4,49.4,1.216,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,10,midday,2350,red,4,48.6,1.234,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,11,midday,2350,red,4,48.6,1.234,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,12,midday,1650,orange,3,52.0,1.153,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,13,midday,1700,orange,3,51.8,1.159,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,14,midday,1950,orange,3,50.6,1.187,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,15,midday,2000,orange,3,50.3,1.192,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,16,pm_peak,2100,orange,3,49.8,1.204,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,17,pm_peak,2250,red,4,49.1,1.222,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,18,pm_peak,2300,red,4,48.9,1.228,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,19,pm_peak,1750,orange,3,51.5,1.164,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,20,evening,1300,yellow,2,53.7,1.117,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,21,evening,900,green,1,55.6,1.078,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,22,evening,650,green,1,56.9,1.055,high,text
+TKY-NB,Tikay,McArthur Highway,NB,regular,23,evening,500,green,1,57.6,1.042,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,0,overnight,510,green,1,57.5,1.043,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,1,overnight,340,green,1,58.4,1.028,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,2,overnight,210,green,1,59.0,1.017,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,3,overnight,170,green,1,59.2,1.014,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,4,overnight,260,green,1,58.7,1.021,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,5,ramp_up,850,green,1,55.9,1.074,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,6,am_peak,1490,yellow,2,52.8,1.137,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,7,am_peak,1620,yellow,2,52.2,1.15,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,8,am_peak,1700,orange,3,51.8,1.159,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,9,am_peak,1870,orange,3,51.0,1.178,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,10,midday,2000,orange,3,50.3,1.192,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,11,midday,2000,orange,3,50.3,1.192,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,12,midday,1400,yellow,2,53.2,1.127,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,13,midday,1440,yellow,2,53.0,1.131,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,14,midday,1660,orange,3,52.0,1.155,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,15,midday,1700,orange,3,51.8,1.159,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,16,pm_peak,1780,orange,3,51.4,1.168,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,17,pm_peak,1910,orange,3,50.8,1.182,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,18,pm_peak,1960,orange,3,50.5,1.188,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,19,pm_peak,1490,yellow,2,52.8,1.137,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,20,evening,1100,yellow,2,54.7,1.097,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,21,evening,760,green,1,56.3,1.065,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,22,evening,550,green,1,57.3,1.046,high,text
+TKY-NB,Tikay,McArthur Highway,NB,pre_holiday,23,evening,420,green,1,58.0,1.035,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,0,overnight,430,green,1,57.9,1.036,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,1,overnight,290,green,1,58.6,1.024,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,2,overnight,180,green,1,59.1,1.015,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,3,overnight,140,green,1,59.3,1.011,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,4,overnight,220,green,1,58.9,1.018,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,5,ramp_up,720,green,1,56.5,1.062,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,6,am_peak,1260,yellow,2,53.9,1.113,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,7,am_peak,1370,yellow,2,53.4,1.124,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,8,am_peak,1440,yellow,2,53.0,1.131,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,9,am_peak,1580,yellow,2,52.4,1.146,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,10,midday,1690,orange,3,51.8,1.158,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,11,midday,1690,orange,3,51.8,1.158,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,12,midday,1190,yellow,2,54.2,1.106,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,13,midday,1220,yellow,2,54.1,1.109,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,14,midday,1400,yellow,2,53.2,1.127,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,15,midday,1440,yellow,2,53.0,1.131,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,16,pm_peak,1510,yellow,2,52.7,1.139,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,17,pm_peak,1620,yellow,2,52.2,1.15,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,18,pm_peak,1660,orange,3,52.0,1.155,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,19,pm_peak,1260,yellow,2,53.9,1.113,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,20,evening,940,green,1,55.5,1.082,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,21,evening,650,green,1,56.9,1.055,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,22,evening,470,green,1,57.7,1.039,high,text
+TKY-NB,Tikay,McArthur Highway,NB,holiday,23,evening,360,green,1,58.3,1.03,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,0,overnight,380,green,1,58.2,1.032,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,1,overnight,260,green,1,58.7,1.021,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,2,overnight,160,green,1,59.2,1.013,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,3,overnight,130,green,1,59.4,1.011,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,4,overnight,190,green,1,59.1,1.016,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,5,ramp_up,640,green,1,56.9,1.054,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,6,am_peak,1120,yellow,2,54.6,1.099,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,7,am_peak,1220,yellow,2,54.1,1.109,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,8,am_peak,1280,yellow,2,53.8,1.115,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,9,am_peak,1410,yellow,2,53.2,1.128,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,10,midday,1500,yellow,2,52.7,1.138,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,11,midday,1500,yellow,2,52.7,1.138,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,12,midday,1060,green,1,54.9,1.093,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,13,midday,1090,yellow,2,54.7,1.096,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,14,midday,1250,yellow,2,54.0,1.112,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,15,midday,1280,yellow,2,53.8,1.115,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,16,pm_peak,1340,yellow,2,53.5,1.121,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,17,pm_peak,1440,yellow,2,53.0,1.131,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,18,pm_peak,1470,yellow,2,52.9,1.134,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,19,pm_peak,1120,yellow,2,54.6,1.099,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,20,evening,830,green,1,56.0,1.072,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,21,evening,580,green,1,57.2,1.049,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,22,evening,420,green,1,58.0,1.035,high,text
+TKY-NB,Tikay,McArthur Highway,NB,post_holiday,23,evening,320,green,1,58.5,1.026,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,0,overnight,650,green,1,56.9,1.055,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,1,overnight,700,green,1,56.6,1.06,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,2,overnight,600,green,1,57.1,1.051,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,3,overnight,500,green,1,57.6,1.042,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,4,overnight,500,green,1,57.6,1.042,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,5,ramp_up,900,green,1,55.6,1.078,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,6,am_peak,1300,yellow,2,53.7,1.117,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,7,am_peak,1600,yellow,2,52.3,1.148,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,8,am_peak,1750,orange,3,51.5,1.164,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,9,am_peak,1850,orange,3,51.0,1.175,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,10,midday,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,11,midday,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,12,midday,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,13,midday,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,14,midday,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,15,midday,1850,orange,3,51.0,1.175,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,16,pm_peak,1900,orange,3,50.8,1.181,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,17,pm_peak,2000,orange,3,50.3,1.192,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,18,pm_peak,2000,orange,3,50.3,1.192,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,19,pm_peak,1500,yellow,2,52.7,1.138,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,20,evening,1300,yellow,2,53.7,1.117,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,21,evening,1000,green,1,55.2,1.088,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,22,evening,850,green,1,55.9,1.074,high,text
+TKY-SB,Tikay,McArthur Highway,SB,regular,23,evening,750,green,1,56.4,1.064,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,0,overnight,550,green,1,57.3,1.046,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,1,overnight,600,green,1,57.1,1.051,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,2,overnight,510,green,1,57.5,1.043,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,3,overnight,420,green,1,58.0,1.035,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,4,overnight,420,green,1,58.0,1.035,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,5,ramp_up,760,green,1,56.3,1.065,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,6,am_peak,1100,yellow,2,54.7,1.097,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,7,am_peak,1360,yellow,2,53.4,1.123,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,8,am_peak,1490,yellow,2,52.8,1.137,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,9,am_peak,1570,yellow,2,52.4,1.145,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,10,midday,1530,yellow,2,52.6,1.141,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,11,midday,1530,yellow,2,52.6,1.141,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,12,midday,1530,yellow,2,52.6,1.141,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,13,midday,1530,yellow,2,52.6,1.141,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,14,midday,1530,yellow,2,52.6,1.141,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,15,midday,1570,yellow,2,52.4,1.145,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,16,pm_peak,1620,yellow,2,52.2,1.15,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,17,pm_peak,1700,orange,3,51.8,1.159,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,18,pm_peak,1700,orange,3,51.8,1.159,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,19,pm_peak,1280,yellow,2,53.8,1.115,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,20,evening,1100,yellow,2,54.7,1.097,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,21,evening,850,green,1,55.9,1.074,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,22,evening,720,green,1,56.5,1.062,high,text
+TKY-SB,Tikay,McArthur Highway,SB,pre_holiday,23,evening,640,green,1,56.9,1.054,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,0,overnight,650,green,1,56.9,1.055,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,1,overnight,700,green,1,56.6,1.06,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,2,overnight,600,green,1,57.1,1.051,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,3,overnight,500,green,1,57.6,1.042,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,4,overnight,500,green,1,57.6,1.042,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,5,ramp_up,900,green,1,55.6,1.078,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,6,am_peak,1300,yellow,2,53.7,1.117,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,7,am_peak,1600,yellow,2,52.3,1.148,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,8,am_peak,1750,orange,3,51.5,1.164,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,9,am_peak,1850,orange,3,51.0,1.175,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,10,midday,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,11,midday,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,12,midday,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,13,midday,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,14,midday,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,15,midday,1850,orange,3,51.0,1.175,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,16,pm_peak,1900,orange,3,50.8,1.181,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,17,pm_peak,2000,orange,3,50.3,1.192,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,18,pm_peak,2000,orange,3,50.3,1.192,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,19,pm_peak,1500,yellow,2,52.7,1.138,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,20,evening,1300,yellow,2,53.7,1.117,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,21,evening,1000,green,1,55.2,1.088,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,22,evening,850,green,1,55.9,1.074,high,text
+TKY-SB,Tikay,McArthur Highway,SB,holiday,23,evening,750,green,1,56.4,1.064,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,0,overnight,580,green,1,57.2,1.049,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,1,overnight,630,green,1,57.0,1.054,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,2,overnight,540,green,1,57.4,1.046,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,3,overnight,450,green,1,57.8,1.038,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,4,overnight,450,green,1,57.8,1.038,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,5,ramp_up,810,green,1,56.1,1.07,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,6,am_peak,1170,yellow,2,54.3,1.104,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,7,am_peak,1440,yellow,2,53.0,1.131,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,8,am_peak,1580,yellow,2,52.4,1.146,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,9,am_peak,1660,orange,3,52.0,1.155,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,10,midday,1620,yellow,2,52.2,1.15,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,11,midday,1620,yellow,2,52.2,1.15,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,12,midday,1620,yellow,2,52.2,1.15,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,13,midday,1620,yellow,2,52.2,1.15,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,14,midday,1620,yellow,2,52.2,1.15,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,15,midday,1660,orange,3,52.0,1.155,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,16,pm_peak,1710,orange,3,51.7,1.16,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,17,pm_peak,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,18,pm_peak,1800,orange,3,51.3,1.17,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,19,pm_peak,1350,yellow,2,53.5,1.122,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,20,evening,1170,yellow,2,54.3,1.104,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,21,evening,900,green,1,55.6,1.078,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,22,evening,760,green,1,56.3,1.065,high,text
+TKY-SB,Tikay,McArthur Highway,SB,post_holiday,23,evening,680,green,1,56.7,1.058,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,0,overnight,600,green,1,57.1,1.051,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,1,overnight,350,green,1,58.3,1.029,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,2,overnight,400,green,1,58.1,1.033,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,3,overnight,400,green,1,58.1,1.033,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,4,overnight,500,green,1,57.6,1.042,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,5,ramp_up,650,green,1,56.9,1.055,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,6,am_peak,1600,yellow,2,52.3,1.148,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,7,am_peak,1800,orange,3,51.3,1.17,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,8,am_peak,1850,orange,3,51.0,1.175,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,9,am_peak,1700,orange,3,51.8,1.159,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,10,midday,1650,orange,3,52.0,1.153,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,11,midday,1650,orange,3,52.0,1.153,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,12,midday,1650,orange,3,52.0,1.153,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,13,midday,1550,yellow,2,52.5,1.143,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,14,midday,1600,yellow,2,52.3,1.148,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,15,midday,1650,orange,3,52.0,1.153,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,16,pm_peak,1850,orange,3,51.0,1.175,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,17,pm_peak,2050,orange,3,50.1,1.198,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,18,pm_peak,1800,orange,3,51.3,1.17,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,19,pm_peak,1500,yellow,2,52.7,1.138,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,20,evening,1200,yellow,2,54.2,1.107,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,21,evening,1000,green,1,55.2,1.088,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,22,evening,900,green,1,55.6,1.078,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,regular,23,evening,800,green,1,56.1,1.069,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,0,overnight,560,green,1,57.3,1.047,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,1,overnight,330,green,1,58.4,1.027,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,2,overnight,370,green,1,58.2,1.031,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,3,overnight,370,green,1,58.2,1.031,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,4,overnight,460,green,1,57.8,1.039,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,5,ramp_up,600,green,1,57.1,1.051,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,6,am_peak,1490,yellow,2,52.8,1.137,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,7,am_peak,1670,orange,3,51.9,1.156,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,8,am_peak,1720,orange,3,51.7,1.161,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,9,am_peak,1580,yellow,2,52.4,1.146,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,10,midday,1530,yellow,2,52.6,1.141,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,11,midday,1530,yellow,2,52.6,1.141,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,12,midday,1530,yellow,2,52.6,1.141,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,13,midday,1440,yellow,2,53.0,1.131,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,14,midday,1490,yellow,2,52.8,1.137,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,15,midday,1530,yellow,2,52.6,1.141,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,16,pm_peak,1720,orange,3,51.7,1.161,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,17,pm_peak,1910,orange,3,50.8,1.182,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,18,pm_peak,1670,orange,3,51.9,1.156,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,19,pm_peak,1400,yellow,2,53.2,1.127,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,20,evening,1120,yellow,2,54.6,1.099,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,21,evening,930,green,1,55.5,1.081,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,22,evening,840,green,1,55.9,1.073,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,pre_holiday,23,evening,740,green,1,56.4,1.063,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,0,overnight,440,green,1,57.9,1.037,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,1,overnight,260,green,1,58.7,1.021,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,2,overnight,290,green,1,58.6,1.024,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,3,overnight,290,green,1,58.6,1.024,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,4,overnight,360,green,1,58.3,1.03,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,5,ramp_up,470,green,1,57.7,1.039,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,6,am_peak,1170,yellow,2,54.3,1.104,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,7,am_peak,1310,yellow,2,53.7,1.118,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,8,am_peak,1350,yellow,2,53.5,1.122,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,9,am_peak,1240,yellow,2,54.0,1.111,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,10,midday,1200,yellow,2,54.2,1.107,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,11,midday,1200,yellow,2,54.2,1.107,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,12,midday,1200,yellow,2,54.2,1.107,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,13,midday,1130,yellow,2,54.5,1.1,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,14,midday,1170,yellow,2,54.3,1.104,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,15,midday,1200,yellow,2,54.2,1.107,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,16,pm_peak,1350,yellow,2,53.5,1.122,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,17,pm_peak,1500,yellow,2,52.7,1.138,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,18,pm_peak,1310,yellow,2,53.7,1.118,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,19,pm_peak,1100,yellow,2,54.7,1.097,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,20,evening,880,green,1,55.7,1.076,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,21,evening,730,green,1,56.5,1.063,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,22,evening,660,green,1,56.8,1.056,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,holiday,23,evening,580,green,1,57.2,1.049,high,text
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,0,overnight,540,green,1,57.4,1.046,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,1,overnight,320,green,1,58.5,1.026,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,2,overnight,360,green,1,58.3,1.03,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,3,overnight,360,green,1,58.3,1.03,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,4,overnight,450,green,1,57.8,1.038,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,5,ramp_up,580,green,1,57.2,1.049,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,6,am_peak,1440,yellow,2,53.0,1.131,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,7,am_peak,1620,yellow,2,52.2,1.15,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,8,am_peak,1660,orange,3,52.0,1.155,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,9,am_peak,1530,yellow,2,52.6,1.141,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,10,midday,1480,yellow,2,52.8,1.136,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,11,midday,1480,yellow,2,52.8,1.136,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,12,midday,1480,yellow,2,52.8,1.136,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,13,midday,1400,yellow,2,53.2,1.127,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,14,midday,1440,yellow,2,53.0,1.131,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,15,midday,1480,yellow,2,52.8,1.136,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,16,pm_peak,1660,orange,3,52.0,1.155,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,17,pm_peak,1840,orange,3,51.1,1.174,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,18,pm_peak,1620,yellow,2,52.2,1.15,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,19,pm_peak,1350,yellow,2,53.5,1.122,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,20,evening,1080,green,1,54.8,1.095,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,21,evening,900,green,1,55.6,1.078,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,22,evening,810,green,1,56.1,1.07,high,assumed
+SPB-NB,San Pablo,McArthur Highway,NB,post_holiday,23,evening,720,green,1,56.5,1.062,high,assumed
+SPB-SB,San Pablo,McArthur Highway,SB,regular,0,overnight,700,green,1,56.6,1.06,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,1,overnight,600,green,1,57.1,1.051,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,2,overnight,500,green,1,57.6,1.042,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,3,overnight,450,green,1,57.8,1.038,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,4,overnight,600,green,1,57.1,1.051,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,5,ramp_up,1100,yellow,2,54.7,1.097,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,6,am_peak,1900,orange,3,50.8,1.181,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,7,am_peak,2300,red,4,48.9,1.228,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,8,am_peak,2200,red,4,49.4,1.216,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,9,am_peak,1900,orange,3,50.8,1.181,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,10,midday,1800,orange,3,51.3,1.17,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,11,midday,1850,orange,3,51.0,1.175,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,12,midday,1900,orange,3,50.8,1.181,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,13,midday,1900,orange,3,50.8,1.181,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,14,midday,1900,orange,3,50.8,1.181,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,15,midday,1900,orange,3,50.8,1.181,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,16,pm_peak,1950,orange,3,50.6,1.187,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,17,pm_peak,2000,orange,3,50.3,1.192,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,18,pm_peak,1900,orange,3,50.8,1.181,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,19,pm_peak,1500,yellow,2,52.7,1.138,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,20,evening,1200,yellow,2,54.2,1.107,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,21,evening,1000,green,1,55.2,1.088,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,22,evening,900,green,1,55.6,1.078,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,regular,23,evening,800,green,1,56.1,1.069,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,0,overnight,610,green,1,57.0,1.052,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,1,overnight,520,green,1,57.5,1.044,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,2,overnight,440,green,1,57.9,1.037,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,3,overnight,390,green,1,58.1,1.032,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,4,overnight,520,green,1,57.5,1.044,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,5,ramp_up,960,green,1,55.4,1.084,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,6,am_peak,1650,orange,3,52.0,1.153,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,7,am_peak,2000,orange,3,50.3,1.192,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,8,am_peak,1910,orange,3,50.8,1.182,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,9,am_peak,1650,orange,3,52.0,1.153,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,10,midday,1570,yellow,2,52.4,1.145,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,11,midday,1610,yellow,2,52.2,1.149,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,12,midday,1650,orange,3,52.0,1.153,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,13,midday,1650,orange,3,52.0,1.153,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,14,midday,1650,orange,3,52.0,1.153,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,15,midday,1650,orange,3,52.0,1.153,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,16,pm_peak,1700,orange,3,51.8,1.159,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,17,pm_peak,1740,orange,3,51.6,1.163,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,18,pm_peak,1650,orange,3,52.0,1.153,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,19,pm_peak,1300,yellow,2,53.7,1.117,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,20,evening,1040,green,1,55.0,1.092,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,21,evening,870,green,1,55.8,1.075,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,22,evening,780,green,1,56.2,1.067,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,pre_holiday,23,evening,700,green,1,56.6,1.06,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,0,overnight,640,green,1,56.9,1.054,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,1,overnight,550,green,1,57.3,1.046,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,2,overnight,460,green,1,57.8,1.039,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,3,overnight,410,green,1,58.0,1.034,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,4,overnight,550,green,1,57.3,1.046,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,5,ramp_up,1000,green,1,55.2,1.088,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,6,am_peak,1730,orange,3,51.6,1.162,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,7,am_peak,2090,orange,3,49.9,1.203,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,8,am_peak,2000,orange,3,50.3,1.192,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,9,am_peak,1730,orange,3,51.6,1.162,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,10,midday,1640,orange,3,52.1,1.152,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,11,midday,1680,orange,3,51.9,1.157,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,12,midday,1730,orange,3,51.6,1.162,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,13,midday,1730,orange,3,51.6,1.162,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,14,midday,1730,orange,3,51.6,1.162,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,15,midday,1730,orange,3,51.6,1.162,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,16,pm_peak,1770,orange,3,51.4,1.167,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,17,pm_peak,1820,orange,3,51.2,1.172,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,18,pm_peak,1730,orange,3,51.6,1.162,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,19,pm_peak,1360,yellow,2,53.4,1.123,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,20,evening,1090,yellow,2,54.7,1.096,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,21,evening,910,green,1,55.6,1.079,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,22,evening,820,green,1,56.0,1.071,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,holiday,23,evening,730,green,1,56.5,1.063,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,0,overnight,550,green,1,57.3,1.046,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,1,overnight,470,green,1,57.7,1.039,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,2,overnight,390,green,1,58.1,1.032,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,3,overnight,350,green,1,58.3,1.029,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,4,overnight,470,green,1,57.7,1.039,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,5,ramp_up,860,green,1,55.8,1.075,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,6,am_peak,1480,yellow,2,52.8,1.136,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,7,am_peak,1790,orange,3,51.3,1.169,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,8,am_peak,1720,orange,3,51.7,1.161,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,9,am_peak,1480,yellow,2,52.8,1.136,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,10,midday,1400,yellow,2,53.2,1.127,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,11,midday,1440,yellow,2,53.0,1.131,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,12,midday,1480,yellow,2,52.8,1.136,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,13,midday,1480,yellow,2,52.8,1.136,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,14,midday,1480,yellow,2,52.8,1.136,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,15,midday,1480,yellow,2,52.8,1.136,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,16,pm_peak,1520,yellow,2,52.6,1.14,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,17,pm_peak,1560,yellow,2,52.5,1.144,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,18,pm_peak,1480,yellow,2,52.8,1.136,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,19,pm_peak,1170,yellow,2,54.3,1.104,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,20,evening,940,green,1,55.5,1.082,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,21,evening,780,green,1,56.2,1.067,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,22,evening,700,green,1,56.6,1.06,medium,text
+SPB-SB,San Pablo,McArthur Highway,SB,post_holiday,23,evening,620,green,1,57.0,1.053,medium,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,0,overnight,550,green,1,57.3,1.046,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,1,overnight,500,green,1,57.6,1.042,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,2,overnight,480,green,1,57.7,1.04,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,3,overnight,450,green,1,57.8,1.038,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,4,overnight,480,green,1,57.7,1.04,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,5,ramp_up,600,green,1,57.1,1.051,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,6,am_peak,700,green,1,56.6,1.06,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,7,am_peak,800,green,1,56.1,1.069,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,8,am_peak,900,green,1,55.6,1.078,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,9,am_peak,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,10,midday,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,11,midday,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,12,midday,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,13,midday,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,14,midday,830,green,1,56.0,1.072,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,15,midday,870,green,1,55.8,1.075,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,16,pm_peak,900,green,1,55.6,1.078,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,17,pm_peak,1000,green,1,55.2,1.088,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,18,pm_peak,1100,yellow,2,54.7,1.097,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,19,pm_peak,1000,green,1,55.2,1.088,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,20,evening,850,green,1,55.9,1.074,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,21,evening,600,green,1,57.1,1.051,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,22,evening,450,green,1,57.8,1.038,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,regular,23,evening,350,green,1,58.3,1.029,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,0,overnight,550,green,1,57.3,1.046,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,1,overnight,500,green,1,57.6,1.042,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,2,overnight,480,green,1,57.7,1.04,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,3,overnight,450,green,1,57.8,1.038,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,4,overnight,480,green,1,57.7,1.04,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,5,ramp_up,600,green,1,57.1,1.051,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,6,am_peak,700,green,1,56.6,1.06,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,7,am_peak,800,green,1,56.1,1.069,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,8,am_peak,900,green,1,55.6,1.078,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,9,am_peak,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,10,midday,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,11,midday,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,12,midday,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,13,midday,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,14,midday,830,green,1,56.0,1.072,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,15,midday,870,green,1,55.8,1.075,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,16,pm_peak,900,green,1,55.6,1.078,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,17,pm_peak,1000,green,1,55.2,1.088,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,18,pm_peak,1100,yellow,2,54.7,1.097,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,19,pm_peak,1000,green,1,55.2,1.088,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,20,evening,850,green,1,55.9,1.074,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,21,evening,600,green,1,57.1,1.051,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,22,evening,450,green,1,57.8,1.038,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,pre_holiday,23,evening,350,green,1,58.3,1.029,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,0,overnight,500,green,1,57.6,1.042,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,1,overnight,460,green,1,57.8,1.039,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,2,overnight,440,green,1,57.9,1.037,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,3,overnight,410,green,1,58.0,1.034,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,4,overnight,440,green,1,57.9,1.037,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,5,ramp_up,550,green,1,57.3,1.046,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,6,am_peak,640,green,1,56.9,1.054,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,7,am_peak,730,green,1,56.5,1.063,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,8,am_peak,820,green,1,56.0,1.071,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,9,am_peak,860,green,1,55.8,1.075,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,10,midday,860,green,1,55.8,1.075,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,11,midday,860,green,1,55.8,1.075,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,12,midday,860,green,1,55.8,1.075,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,13,midday,860,green,1,55.8,1.075,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,14,midday,760,green,1,56.3,1.065,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,15,midday,790,green,1,56.2,1.068,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,16,pm_peak,820,green,1,56.0,1.071,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,17,pm_peak,910,green,1,55.6,1.079,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,18,pm_peak,1000,green,1,55.2,1.088,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,19,pm_peak,910,green,1,55.6,1.079,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,20,evening,770,green,1,56.3,1.066,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,21,evening,550,green,1,57.3,1.046,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,22,evening,410,green,1,58.0,1.034,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,holiday,23,evening,320,green,1,58.5,1.026,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,0,overnight,470,green,1,57.7,1.039,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,1,overnight,430,green,1,57.9,1.036,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,2,overnight,410,green,1,58.0,1.034,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,3,overnight,390,green,1,58.1,1.032,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,4,overnight,410,green,1,58.0,1.034,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,5,ramp_up,520,green,1,57.5,1.044,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,6,am_peak,600,green,1,57.1,1.051,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,7,am_peak,690,green,1,56.7,1.059,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,8,am_peak,770,green,1,56.3,1.066,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,9,am_peak,820,green,1,56.0,1.071,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,10,midday,820,green,1,56.0,1.071,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,11,midday,820,green,1,56.0,1.071,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,12,midday,820,green,1,56.0,1.071,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,13,midday,820,green,1,56.0,1.071,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,14,midday,710,green,1,56.6,1.061,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,15,midday,750,green,1,56.4,1.064,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,16,pm_peak,770,green,1,56.3,1.066,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,17,pm_peak,860,green,1,55.8,1.075,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,18,pm_peak,950,green,1,55.4,1.083,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,19,pm_peak,860,green,1,55.8,1.075,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,20,evening,730,green,1,56.5,1.063,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,21,evening,520,green,1,57.5,1.044,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,22,evening,390,green,1,58.1,1.032,high,text
+GNW-NB,Guinhawa Crossing,McArthur Highway,NB,post_holiday,23,evening,300,green,1,58.5,1.025,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,0,overnight,450,green,1,57.8,1.038,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,1,overnight,400,green,1,58.1,1.033,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,2,overnight,350,green,1,58.3,1.029,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,3,overnight,300,green,1,58.5,1.025,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,4,overnight,400,green,1,58.1,1.033,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,5,ramp_up,500,green,1,57.6,1.042,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,6,am_peak,1100,yellow,2,54.7,1.097,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,7,am_peak,1350,yellow,2,53.5,1.122,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,8,am_peak,1250,yellow,2,54.0,1.112,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,9,am_peak,1150,yellow,2,54.4,1.102,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,10,midday,1150,yellow,2,54.4,1.102,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,11,midday,1200,yellow,2,54.2,1.107,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,12,midday,1200,yellow,2,54.2,1.107,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,13,midday,1200,yellow,2,54.2,1.107,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,14,midday,1200,yellow,2,54.2,1.107,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,15,midday,1150,yellow,2,54.4,1.102,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,16,pm_peak,1150,yellow,2,54.4,1.102,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,17,pm_peak,1450,yellow,2,53.0,1.132,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,18,pm_peak,1500,yellow,2,52.7,1.138,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,19,pm_peak,1450,yellow,2,53.0,1.132,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,20,evening,1050,green,1,54.9,1.093,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,21,evening,800,green,1,56.1,1.069,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,22,evening,600,green,1,57.1,1.051,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,regular,23,evening,500,green,1,57.6,1.042,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,0,overnight,400,green,1,58.1,1.033,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,1,overnight,360,green,1,58.3,1.03,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,2,overnight,320,green,1,58.5,1.026,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,3,overnight,270,green,1,58.7,1.022,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,4,overnight,360,green,1,58.3,1.03,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,5,ramp_up,450,green,1,57.8,1.038,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,6,am_peak,990,green,1,55.2,1.087,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,7,am_peak,1220,yellow,2,54.1,1.109,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,8,am_peak,1120,yellow,2,54.6,1.099,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,9,am_peak,1040,green,1,55.0,1.092,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,10,midday,1040,green,1,55.0,1.092,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,11,midday,1080,green,1,54.8,1.095,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,12,midday,1080,green,1,54.8,1.095,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,13,midday,1080,green,1,54.8,1.095,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,14,midday,1080,green,1,54.8,1.095,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,15,midday,1040,green,1,55.0,1.092,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,16,pm_peak,1040,green,1,55.0,1.092,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,17,pm_peak,1300,yellow,2,53.7,1.117,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,18,pm_peak,1350,yellow,2,53.5,1.122,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,19,pm_peak,1300,yellow,2,53.7,1.117,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,20,evening,940,green,1,55.5,1.082,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,21,evening,720,green,1,56.5,1.062,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,22,evening,540,green,1,57.4,1.046,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,pre_holiday,23,evening,450,green,1,57.8,1.038,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,0,overnight,420,green,1,58.0,1.035,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,1,overnight,370,green,1,58.2,1.031,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,2,overnight,330,green,1,58.4,1.027,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,3,overnight,280,green,1,58.6,1.023,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,4,overnight,370,green,1,58.2,1.031,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,5,ramp_up,460,green,1,57.8,1.039,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,6,am_peak,1020,green,1,55.1,1.09,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,7,am_peak,1260,yellow,2,53.9,1.113,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,8,am_peak,1160,yellow,2,54.4,1.103,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,9,am_peak,1070,green,1,54.8,1.094,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,10,midday,1070,green,1,54.8,1.094,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,11,midday,1120,yellow,2,54.6,1.099,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,12,midday,1120,yellow,2,54.6,1.099,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,13,midday,1120,yellow,2,54.6,1.099,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,14,midday,1120,yellow,2,54.6,1.099,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,15,midday,1070,green,1,54.8,1.094,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,16,pm_peak,1070,green,1,54.8,1.094,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,17,pm_peak,1350,yellow,2,53.5,1.122,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,18,pm_peak,1400,yellow,2,53.2,1.127,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,19,pm_peak,1350,yellow,2,53.5,1.122,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,20,evening,980,green,1,55.3,1.086,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,21,evening,740,green,1,56.4,1.063,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,22,evening,560,green,1,57.3,1.047,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,holiday,23,evening,460,green,1,57.8,1.039,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,0,overnight,360,green,1,58.3,1.03,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,1,overnight,320,green,1,58.5,1.026,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,2,overnight,280,green,1,58.6,1.023,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,3,overnight,240,green,1,58.8,1.02,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,4,overnight,320,green,1,58.5,1.026,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,5,ramp_up,400,green,1,58.1,1.033,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,6,am_peak,880,green,1,55.7,1.076,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,7,am_peak,1080,green,1,54.8,1.095,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,8,am_peak,1000,green,1,55.2,1.088,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,9,am_peak,920,green,1,55.5,1.08,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,10,midday,920,green,1,55.5,1.08,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,11,midday,960,green,1,55.4,1.084,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,12,midday,960,green,1,55.4,1.084,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,13,midday,960,green,1,55.4,1.084,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,14,midday,960,green,1,55.4,1.084,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,15,midday,920,green,1,55.5,1.08,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,16,pm_peak,920,green,1,55.5,1.08,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,17,pm_peak,1160,yellow,2,54.4,1.103,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,18,pm_peak,1200,yellow,2,54.2,1.107,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,19,pm_peak,1160,yellow,2,54.4,1.103,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,20,evening,840,green,1,55.9,1.073,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,21,evening,640,green,1,56.9,1.054,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,22,evening,480,green,1,57.7,1.04,high,text
+GNW-SB,Guinhawa Crossing,McArthur Highway,SB,post_holiday,23,evening,400,green,1,58.1,1.033,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,0,overnight,150,green,1,59.3,1.012,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,1,overnight,120,green,1,59.4,1.01,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,2,overnight,100,green,1,59.5,1.008,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,3,overnight,100,green,1,59.5,1.008,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,4,overnight,150,green,1,59.3,1.012,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,5,ramp_up,250,green,1,58.8,1.021,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,6,am_peak,400,green,1,58.1,1.033,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,7,am_peak,600,green,1,57.1,1.051,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,8,am_peak,700,green,1,56.6,1.06,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,9,am_peak,750,green,1,56.4,1.064,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,10,midday,750,green,1,56.4,1.064,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,11,midday,750,green,1,56.4,1.064,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,12,midday,780,green,1,56.2,1.067,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,13,midday,820,green,1,56.0,1.071,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,14,midday,880,green,1,55.7,1.076,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,15,midday,800,green,1,56.1,1.069,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,16,pm_peak,850,green,1,55.9,1.074,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,17,pm_peak,850,green,1,55.9,1.074,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,18,pm_peak,800,green,1,56.1,1.069,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,19,pm_peak,750,green,1,56.4,1.064,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,20,evening,650,green,1,56.9,1.055,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,21,evening,550,green,1,57.3,1.046,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,22,evening,500,green,1,57.6,1.042,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,regular,23,evening,350,green,1,58.3,1.029,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,0,overnight,150,green,1,59.3,1.012,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,1,overnight,120,green,1,59.4,1.01,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,2,overnight,100,green,1,59.5,1.008,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,3,overnight,100,green,1,59.5,1.008,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,4,overnight,150,green,1,59.3,1.012,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,5,ramp_up,260,green,1,58.7,1.021,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,6,am_peak,410,green,1,58.0,1.034,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,7,am_peak,610,green,1,57.0,1.052,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,8,am_peak,710,green,1,56.6,1.061,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,9,am_peak,760,green,1,56.3,1.065,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,10,midday,760,green,1,56.3,1.065,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,11,midday,760,green,1,56.3,1.065,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,12,midday,800,green,1,56.1,1.069,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,13,midday,840,green,1,55.9,1.073,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,14,midday,900,green,1,55.6,1.078,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,15,midday,820,green,1,56.0,1.071,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,16,pm_peak,870,green,1,55.8,1.075,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,17,pm_peak,870,green,1,55.8,1.075,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,18,pm_peak,820,green,1,56.0,1.071,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,19,pm_peak,760,green,1,56.3,1.065,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,20,evening,660,green,1,56.8,1.056,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,21,evening,560,green,1,57.3,1.047,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,22,evening,510,green,1,57.5,1.043,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,pre_holiday,23,evening,360,green,1,58.3,1.03,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,0,overnight,140,green,1,59.3,1.011,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,1,overnight,110,green,1,59.5,1.009,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,2,overnight,90,green,1,59.6,1.007,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,3,overnight,90,green,1,59.6,1.007,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,4,overnight,140,green,1,59.3,1.011,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,5,ramp_up,230,green,1,58.9,1.019,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,6,am_peak,370,green,1,58.2,1.031,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,7,am_peak,550,green,1,57.3,1.046,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,8,am_peak,640,green,1,56.9,1.054,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,9,am_peak,690,green,1,56.7,1.059,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,10,midday,690,green,1,56.7,1.059,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,11,midday,690,green,1,56.7,1.059,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,12,midday,720,green,1,56.5,1.062,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,13,midday,750,green,1,56.4,1.064,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,14,midday,810,green,1,56.1,1.07,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,15,midday,740,green,1,56.4,1.063,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,16,pm_peak,780,green,1,56.2,1.067,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,17,pm_peak,780,green,1,56.2,1.067,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,18,pm_peak,740,green,1,56.4,1.063,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,19,pm_peak,690,green,1,56.7,1.059,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,20,evening,600,green,1,57.1,1.051,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,21,evening,510,green,1,57.5,1.043,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,22,evening,460,green,1,57.8,1.039,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,holiday,23,evening,320,green,1,58.5,1.026,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,0,overnight,130,green,1,59.4,1.011,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,1,overnight,100,green,1,59.5,1.008,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,2,overnight,80,green,1,59.6,1.006,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,3,overnight,80,green,1,59.6,1.006,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,4,overnight,130,green,1,59.4,1.011,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,5,ramp_up,210,green,1,59.0,1.017,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,6,am_peak,340,green,1,58.4,1.028,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,7,am_peak,510,green,1,57.5,1.043,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,8,am_peak,600,green,1,57.1,1.051,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,9,am_peak,640,green,1,56.9,1.054,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,10,midday,640,green,1,56.9,1.054,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,11,midday,640,green,1,56.9,1.054,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,12,midday,660,green,1,56.8,1.056,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,13,midday,700,green,1,56.6,1.06,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,14,midday,750,green,1,56.4,1.064,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,15,midday,680,green,1,56.7,1.058,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,16,pm_peak,720,green,1,56.5,1.062,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,17,pm_peak,720,green,1,56.5,1.062,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,18,pm_peak,680,green,1,56.7,1.058,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,19,pm_peak,640,green,1,56.9,1.054,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,20,evening,550,green,1,57.3,1.046,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,21,evening,470,green,1,57.7,1.039,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,22,evening,420,green,1,58.0,1.035,high,text
+GNW-MAB-SB,Guinhawa to A. Mabini,A. Mabini Road,SB,post_holiday,23,evening,300,green,1,58.5,1.025,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,0,overnight,200,green,1,59.0,1.016,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,1,overnight,150,green,1,59.3,1.012,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,2,overnight,100,green,1,59.5,1.008,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,3,overnight,100,green,1,59.5,1.008,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,4,overnight,150,green,1,59.3,1.012,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,5,ramp_up,350,green,1,58.3,1.029,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,6,am_peak,750,green,1,56.4,1.064,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,7,am_peak,900,green,1,55.6,1.078,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,8,am_peak,950,green,1,55.4,1.083,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,9,am_peak,950,green,1,55.4,1.083,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,10,midday,900,green,1,55.6,1.078,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,11,midday,950,green,1,55.4,1.083,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,12,midday,950,green,1,55.4,1.083,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,13,midday,950,green,1,55.4,1.083,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,14,midday,900,green,1,55.6,1.078,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,15,midday,800,green,1,56.1,1.069,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,16,pm_peak,1100,yellow,2,54.7,1.097,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,17,pm_peak,1200,yellow,2,54.2,1.107,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,18,pm_peak,1150,yellow,2,54.4,1.102,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,19,pm_peak,800,green,1,56.1,1.069,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,20,evening,550,green,1,57.3,1.046,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,21,evening,400,green,1,58.1,1.033,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,22,evening,300,green,1,58.5,1.025,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,regular,23,evening,250,green,1,58.8,1.021,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,0,overnight,170,green,1,59.2,1.014,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,1,overnight,120,green,1,59.4,1.01,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,2,overnight,80,green,1,59.6,1.006,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,3,overnight,80,green,1,59.6,1.006,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,4,overnight,120,green,1,59.4,1.01,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,5,ramp_up,290,green,1,58.6,1.024,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,6,am_peak,620,green,1,57.0,1.053,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,7,am_peak,750,green,1,56.4,1.064,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,8,am_peak,790,green,1,56.2,1.068,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,9,am_peak,790,green,1,56.2,1.068,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,10,midday,750,green,1,56.4,1.064,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,11,midday,790,green,1,56.2,1.068,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,12,midday,790,green,1,56.2,1.068,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,13,midday,790,green,1,56.2,1.068,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,14,midday,750,green,1,56.4,1.064,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,15,midday,660,green,1,56.8,1.056,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,16,pm_peak,910,green,1,55.6,1.079,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,17,pm_peak,1000,green,1,55.2,1.088,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,18,pm_peak,950,green,1,55.4,1.083,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,19,pm_peak,660,green,1,56.8,1.056,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,20,evening,460,green,1,57.8,1.039,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,21,evening,330,green,1,58.4,1.027,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,22,evening,250,green,1,58.8,1.021,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,pre_holiday,23,evening,210,green,1,59.0,1.017,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,0,overnight,150,green,1,59.3,1.012,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,1,overnight,110,green,1,59.5,1.009,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,2,overnight,80,green,1,59.6,1.006,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,3,overnight,80,green,1,59.6,1.006,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,4,overnight,110,green,1,59.5,1.009,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,5,ramp_up,260,green,1,58.7,1.021,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,6,am_peak,560,green,1,57.3,1.047,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,7,am_peak,680,green,1,56.7,1.058,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,8,am_peak,710,green,1,56.6,1.061,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,9,am_peak,710,green,1,56.6,1.061,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,10,midday,680,green,1,56.7,1.058,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,11,midday,710,green,1,56.6,1.061,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,12,midday,710,green,1,56.6,1.061,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,13,midday,710,green,1,56.6,1.061,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,14,midday,680,green,1,56.7,1.058,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,15,midday,600,green,1,57.1,1.051,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,16,pm_peak,820,green,1,56.0,1.071,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,17,pm_peak,900,green,1,55.6,1.078,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,18,pm_peak,860,green,1,55.8,1.075,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,19,pm_peak,600,green,1,57.1,1.051,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,20,evening,410,green,1,58.0,1.034,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,21,evening,300,green,1,58.5,1.025,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,22,evening,220,green,1,58.9,1.018,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,holiday,23,evening,190,green,1,59.1,1.016,high,text
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,0,overnight,130,green,1,59.4,1.011,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,1,overnight,100,green,1,59.5,1.008,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,2,overnight,60,green,1,59.7,1.005,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,3,overnight,60,green,1,59.7,1.005,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,4,overnight,100,green,1,59.5,1.008,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,5,ramp_up,230,green,1,58.9,1.019,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,6,am_peak,490,green,1,57.6,1.041,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,7,am_peak,580,green,1,57.2,1.049,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,8,am_peak,620,green,1,57.0,1.053,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,9,am_peak,620,green,1,57.0,1.053,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,10,midday,580,green,1,57.2,1.049,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,11,midday,620,green,1,57.0,1.053,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,12,midday,620,green,1,57.0,1.053,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,13,midday,620,green,1,57.0,1.053,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,14,midday,580,green,1,57.2,1.049,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,15,midday,520,green,1,57.5,1.044,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,16,pm_peak,720,green,1,56.5,1.062,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,17,pm_peak,780,green,1,56.2,1.067,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,18,pm_peak,750,green,1,56.4,1.064,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,19,pm_peak,520,green,1,57.5,1.044,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,20,evening,360,green,1,58.3,1.03,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,21,evening,260,green,1,58.7,1.021,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,22,evening,200,green,1,59.0,1.016,high,assumed
+PNB-NB,Pinagbakahan,A. Mabini Road,NB,post_holiday,23,evening,160,green,1,59.2,1.013,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,0,overnight,200,green,1,59.0,1.016,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,1,overnight,150,green,1,59.3,1.012,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,2,overnight,100,green,1,59.5,1.008,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,3,overnight,100,green,1,59.5,1.008,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,4,overnight,150,green,1,59.3,1.012,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,5,ramp_up,300,green,1,58.5,1.025,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,6,am_peak,600,green,1,57.1,1.051,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,7,am_peak,750,green,1,56.4,1.064,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,8,am_peak,850,green,1,55.9,1.074,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,9,am_peak,900,green,1,55.6,1.078,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,10,midday,950,green,1,55.4,1.083,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,11,midday,950,green,1,55.4,1.083,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,12,midday,950,green,1,55.4,1.083,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,13,midday,900,green,1,55.6,1.078,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,14,midday,850,green,1,55.9,1.074,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,15,midday,850,green,1,55.9,1.074,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,16,pm_peak,950,green,1,55.4,1.083,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,17,pm_peak,1050,green,1,54.9,1.093,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,18,pm_peak,1000,green,1,55.2,1.088,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,19,pm_peak,600,green,1,57.1,1.051,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,20,evening,450,green,1,57.8,1.038,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,21,evening,350,green,1,58.3,1.029,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,22,evening,300,green,1,58.5,1.025,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,regular,23,evening,250,green,1,58.8,1.021,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,0,overnight,170,green,1,59.2,1.014,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,1,overnight,130,green,1,59.4,1.011,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,2,overnight,90,green,1,59.6,1.007,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,3,overnight,90,green,1,59.6,1.007,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,4,overnight,130,green,1,59.4,1.011,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,5,ramp_up,260,green,1,58.7,1.021,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,6,am_peak,520,green,1,57.5,1.044,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,7,am_peak,640,green,1,56.9,1.054,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,8,am_peak,730,green,1,56.5,1.063,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,9,am_peak,770,green,1,56.3,1.066,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,10,midday,820,green,1,56.0,1.071,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,11,midday,820,green,1,56.0,1.071,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,12,midday,820,green,1,56.0,1.071,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,13,midday,770,green,1,56.3,1.066,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,14,midday,730,green,1,56.5,1.063,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,15,midday,730,green,1,56.5,1.063,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,16,pm_peak,820,green,1,56.0,1.071,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,17,pm_peak,900,green,1,55.6,1.078,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,18,pm_peak,860,green,1,55.8,1.075,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,19,pm_peak,520,green,1,57.5,1.044,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,20,evening,390,green,1,58.1,1.032,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,21,evening,300,green,1,58.5,1.025,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,22,evening,260,green,1,58.7,1.021,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,pre_holiday,23,evening,220,green,1,58.9,1.018,high,text
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,0,overnight,160,green,1,59.2,1.013,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,1,overnight,120,green,1,59.4,1.01,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,2,overnight,80,green,1,59.6,1.006,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,3,overnight,80,green,1,59.6,1.006,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,4,overnight,120,green,1,59.4,1.01,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,5,ramp_up,240,green,1,58.8,1.02,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,6,am_peak,480,green,1,57.7,1.04,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,7,am_peak,600,green,1,57.1,1.051,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,8,am_peak,680,green,1,56.7,1.058,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,9,am_peak,720,green,1,56.5,1.062,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,10,midday,760,green,1,56.3,1.065,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,11,midday,760,green,1,56.3,1.065,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,12,midday,760,green,1,56.3,1.065,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,13,midday,720,green,1,56.5,1.062,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,14,midday,680,green,1,56.7,1.058,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,15,midday,680,green,1,56.7,1.058,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,16,pm_peak,760,green,1,56.3,1.065,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,17,pm_peak,840,green,1,55.9,1.073,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,18,pm_peak,800,green,1,56.1,1.069,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,19,pm_peak,480,green,1,57.7,1.04,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,20,evening,360,green,1,58.3,1.03,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,21,evening,280,green,1,58.6,1.023,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,22,evening,240,green,1,58.8,1.02,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,holiday,23,evening,200,green,1,59.0,1.016,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,0,overnight,140,green,1,59.3,1.011,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,1,overnight,110,green,1,59.5,1.009,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,2,overnight,70,green,1,59.7,1.006,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,3,overnight,70,green,1,59.7,1.006,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,4,overnight,110,green,1,59.5,1.009,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,5,ramp_up,220,green,1,58.9,1.018,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,6,am_peak,430,green,1,57.9,1.036,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,7,am_peak,540,green,1,57.4,1.046,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,8,am_peak,610,green,1,57.0,1.052,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,9,am_peak,650,green,1,56.9,1.055,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,10,midday,680,green,1,56.7,1.058,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,11,midday,680,green,1,56.7,1.058,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,12,midday,680,green,1,56.7,1.058,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,13,midday,650,green,1,56.9,1.055,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,14,midday,610,green,1,57.0,1.052,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,15,midday,610,green,1,57.0,1.052,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,16,pm_peak,680,green,1,56.7,1.058,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,17,pm_peak,760,green,1,56.3,1.065,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,18,pm_peak,720,green,1,56.5,1.062,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,19,pm_peak,430,green,1,57.9,1.036,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,20,evening,320,green,1,58.5,1.026,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,21,evening,250,green,1,58.8,1.021,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,22,evening,220,green,1,58.9,1.018,high,assumed
+PNB-SB,Pinagbakahan,A. Mabini Road,SB,post_holiday,23,evening,180,green,1,59.1,1.015,high,assumed
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,0,overnight,800,green,1,56.1,1.069,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,1,overnight,700,green,1,56.6,1.06,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,2,overnight,650,green,1,56.9,1.055,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,3,overnight,600,green,1,57.1,1.051,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,4,overnight,700,green,1,56.6,1.06,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,5,ramp_up,1100,yellow,2,54.7,1.097,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,6,am_peak,2000,orange,3,50.3,1.192,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,7,am_peak,2900,red,5,46.0,1.305,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,8,am_peak,3600,red,5,42.6,1.409,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,9,am_peak,3500,red,5,43.1,1.393,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,10,midday,3300,red,5,44.0,1.363,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,11,midday,3250,red,5,44.3,1.355,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,12,midday,3200,red,5,44.5,1.348,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,13,midday,3200,red,5,44.5,1.348,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,14,midday,3200,red,5,44.5,1.348,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,15,midday,3400,red,5,43.5,1.378,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,16,pm_peak,3700,red,5,42.1,1.425,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,17,pm_peak,3800,red,5,41.6,1.442,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,18,pm_peak,3300,red,5,44.0,1.363,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,19,pm_peak,2000,orange,3,50.3,1.192,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,20,evening,1400,yellow,2,53.2,1.127,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,21,evening,1000,green,1,55.2,1.088,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,22,evening,800,green,1,56.1,1.069,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,regular,23,evening,750,green,1,56.4,1.064,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,0,overnight,570,green,1,57.2,1.048,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,1,overnight,500,green,1,57.6,1.042,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,2,overnight,460,green,1,57.8,1.039,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,3,overnight,430,green,1,57.9,1.036,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,4,overnight,500,green,1,57.6,1.042,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,5,ramp_up,780,green,1,56.2,1.067,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,6,am_peak,1420,yellow,2,53.1,1.129,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,7,am_peak,2060,orange,3,50.0,1.199,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,8,am_peak,2560,red,4,47.6,1.26,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,9,am_peak,2480,red,4,48.0,1.25,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,10,midday,2340,red,4,48.7,1.233,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,11,midday,2310,red,4,48.8,1.229,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,12,midday,2270,red,4,49.0,1.224,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,13,midday,2270,red,4,49.0,1.224,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,14,midday,2270,red,4,49.0,1.224,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,15,midday,2410,red,4,48.3,1.241,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,16,pm_peak,2630,red,4,47.3,1.269,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,17,pm_peak,2700,red,4,46.9,1.278,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,18,pm_peak,2340,red,4,48.7,1.233,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,19,pm_peak,1420,yellow,2,53.1,1.129,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,20,evening,990,green,1,55.2,1.087,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,21,evening,710,green,1,56.6,1.061,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,22,evening,570,green,1,57.2,1.048,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,pre_holiday,23,evening,530,green,1,57.4,1.045,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,0,overnight,560,green,1,57.3,1.047,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,1,overnight,490,green,1,57.6,1.041,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,2,overnight,450,green,1,57.8,1.038,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,3,overnight,420,green,1,58.0,1.035,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,4,overnight,490,green,1,57.6,1.041,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,5,ramp_up,770,green,1,56.3,1.066,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,6,am_peak,1400,yellow,2,53.2,1.127,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,7,am_peak,2030,orange,3,50.2,1.196,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,8,am_peak,2520,red,4,47.8,1.255,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,9,am_peak,2450,red,4,48.1,1.246,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,10,midday,2310,red,4,48.8,1.229,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,11,midday,2280,red,4,49.0,1.225,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,12,midday,2240,red,4,49.2,1.22,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,13,midday,2240,red,4,49.2,1.22,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,14,midday,2240,red,4,49.2,1.22,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,15,midday,2380,red,4,48.5,1.238,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,16,pm_peak,2590,red,4,47.5,1.264,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,17,pm_peak,2660,red,4,47.1,1.273,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,18,pm_peak,2310,red,4,48.8,1.229,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,19,pm_peak,1400,yellow,2,53.2,1.127,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,20,evening,980,green,1,55.3,1.086,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,21,evening,700,green,1,56.6,1.06,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,22,evening,560,green,1,57.3,1.047,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,holiday,23,evening,520,green,1,57.5,1.044,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,0,overnight,540,green,1,57.4,1.046,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,1,overnight,480,green,1,57.7,1.04,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,2,overnight,440,green,1,57.9,1.037,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,3,overnight,410,green,1,58.0,1.034,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,4,overnight,480,green,1,57.7,1.04,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,5,ramp_up,750,green,1,56.4,1.064,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,6,am_peak,1360,yellow,2,53.4,1.123,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,7,am_peak,1970,orange,3,50.5,1.189,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,8,am_peak,2450,red,4,48.1,1.246,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,9,am_peak,2380,red,4,48.5,1.238,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,10,midday,2240,red,4,49.2,1.22,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,11,midday,2210,red,4,49.3,1.217,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,12,midday,2180,red,4,49.5,1.213,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,13,midday,2180,red,4,49.5,1.213,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,14,midday,2180,red,4,49.5,1.213,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,15,midday,2310,red,4,48.8,1.229,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,16,pm_peak,2520,red,4,47.8,1.255,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,17,pm_peak,2580,red,4,47.5,1.263,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,18,pm_peak,2240,red,4,49.2,1.22,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,19,pm_peak,1360,yellow,2,53.4,1.123,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,20,evening,950,green,1,55.4,1.083,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,21,evening,680,green,1,56.7,1.058,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,22,evening,540,green,1,57.4,1.046,medium,text
+XEN-NB,Xentro Mall,McArthur Highway,NB,post_holiday,23,evening,510,green,1,57.5,1.043,medium,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,0,overnight,1000,green,1,55.2,1.088,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,1,overnight,900,green,1,55.6,1.078,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,2,overnight,850,green,1,55.9,1.074,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,3,overnight,800,green,1,56.1,1.069,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,4,overnight,1100,yellow,2,54.7,1.097,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,5,ramp_up,1400,yellow,2,53.2,1.127,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,6,am_peak,1700,orange,3,51.8,1.159,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,7,am_peak,2100,orange,3,49.8,1.204,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,8,am_peak,2400,red,4,48.4,1.24,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,9,am_peak,2450,red,4,48.1,1.246,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,10,midday,2550,red,4,47.7,1.259,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,11,midday,2650,red,4,47.2,1.272,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,12,midday,2700,red,4,46.9,1.278,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,13,midday,2800,red,5,46.5,1.292,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,14,midday,2850,red,5,46.2,1.298,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,15,midday,2800,red,5,46.5,1.292,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,16,pm_peak,2750,red,5,46.7,1.285,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,17,pm_peak,2700,red,4,46.9,1.278,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,18,pm_peak,2750,red,5,46.7,1.285,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,19,pm_peak,2600,red,4,47.4,1.265,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,20,evening,2400,red,4,48.4,1.24,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,21,evening,1900,orange,3,50.8,1.181,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,22,evening,1600,yellow,2,52.3,1.148,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,regular,23,evening,1350,yellow,2,53.5,1.122,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,0,overnight,1000,green,1,55.2,1.088,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,1,overnight,900,green,1,55.6,1.078,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,2,overnight,850,green,1,55.9,1.074,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,3,overnight,800,green,1,56.1,1.069,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,4,overnight,1100,yellow,2,54.7,1.097,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,5,ramp_up,1400,yellow,2,53.2,1.127,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,6,am_peak,1700,orange,3,51.8,1.159,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,7,am_peak,2100,orange,3,49.8,1.204,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,8,am_peak,2400,red,4,48.4,1.24,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,9,am_peak,2450,red,4,48.1,1.246,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,10,midday,2550,red,4,47.7,1.259,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,11,midday,2650,red,4,47.2,1.272,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,12,midday,2700,red,4,46.9,1.278,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,13,midday,2800,red,5,46.5,1.292,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,14,midday,2850,red,5,46.2,1.298,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,15,midday,2800,red,5,46.5,1.292,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,16,pm_peak,2750,red,5,46.7,1.285,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,17,pm_peak,2700,red,4,46.9,1.278,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,18,pm_peak,2750,red,5,46.7,1.285,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,19,pm_peak,2600,red,4,47.4,1.265,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,20,evening,2400,red,4,48.4,1.24,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,21,evening,1900,orange,3,50.8,1.181,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,22,evening,1600,yellow,2,52.3,1.148,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,pre_holiday,23,evening,1350,yellow,2,53.5,1.122,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,0,overnight,950,green,1,55.4,1.083,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,1,overnight,860,green,1,55.8,1.075,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,2,overnight,810,green,1,56.1,1.07,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,3,overnight,760,green,1,56.3,1.065,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,4,overnight,1040,green,1,55.0,1.092,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,5,ramp_up,1330,yellow,2,53.6,1.12,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,6,am_peak,1620,yellow,2,52.2,1.15,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,7,am_peak,2000,orange,3,50.3,1.192,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,8,am_peak,2280,red,4,49.0,1.225,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,9,am_peak,2330,red,4,48.7,1.231,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,10,midday,2420,red,4,48.3,1.242,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,11,midday,2520,red,4,47.8,1.255,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,12,midday,2560,red,4,47.6,1.26,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,13,midday,2660,red,4,47.1,1.273,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,14,midday,2710,red,5,46.9,1.28,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,15,midday,2660,red,4,47.1,1.273,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,16,pm_peak,2610,red,4,47.4,1.267,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,17,pm_peak,2560,red,4,47.6,1.26,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,18,pm_peak,2610,red,4,47.4,1.267,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,19,pm_peak,2470,red,4,48.0,1.249,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,20,evening,2280,red,4,49.0,1.225,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,21,evening,1800,orange,3,51.3,1.17,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,22,evening,1520,yellow,2,52.6,1.14,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,holiday,23,evening,1280,yellow,2,53.8,1.115,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,0,overnight,980,green,1,55.3,1.086,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,1,overnight,880,green,1,55.7,1.076,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,2,overnight,830,green,1,56.0,1.072,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,3,overnight,780,green,1,56.2,1.067,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,4,overnight,1080,green,1,54.8,1.095,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,5,ramp_up,1370,yellow,2,53.4,1.124,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,6,am_peak,1670,orange,3,51.9,1.156,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,7,am_peak,2060,orange,3,50.0,1.199,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,8,am_peak,2350,red,4,48.6,1.234,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,9,am_peak,2400,red,4,48.4,1.24,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,10,midday,2500,red,4,47.9,1.253,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,11,midday,2600,red,4,47.4,1.265,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,12,midday,2650,red,4,47.2,1.272,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,13,midday,2740,red,5,46.7,1.284,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,14,midday,2790,red,5,46.5,1.29,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,15,midday,2740,red,5,46.7,1.284,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,16,pm_peak,2700,red,4,46.9,1.278,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,17,pm_peak,2650,red,4,47.2,1.272,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,18,pm_peak,2700,red,4,46.9,1.278,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,19,pm_peak,2550,red,4,47.7,1.259,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,20,evening,2350,red,4,48.6,1.234,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,21,evening,1860,orange,3,51.0,1.176,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,22,evening,1570,yellow,2,52.4,1.145,high,text
+XEN-SB,Xentro Mall,McArthur Highway,SB,post_holiday,23,evening,1320,yellow,2,53.6,1.119,high,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,0,overnight,900,green,1,55.6,1.078,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,1,overnight,700,green,1,56.6,1.06,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,2,overnight,600,green,1,57.1,1.051,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,3,overnight,550,green,1,57.3,1.046,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,4,overnight,800,green,1,56.1,1.069,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,5,ramp_up,1300,yellow,2,53.7,1.117,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,6,am_peak,1800,orange,3,51.3,1.17,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,7,am_peak,2100,orange,3,49.8,1.204,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,8,am_peak,2300,red,4,48.9,1.228,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,9,am_peak,2100,orange,3,49.8,1.204,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,10,midday,1800,orange,3,51.3,1.17,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,11,midday,1800,orange,3,51.3,1.17,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,12,midday,1900,orange,3,50.8,1.181,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,13,midday,1900,orange,3,50.8,1.181,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,14,midday,1950,orange,3,50.6,1.187,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,15,midday,2000,orange,3,50.3,1.192,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,16,pm_peak,2200,red,4,49.4,1.216,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,17,pm_peak,2150,orange,3,49.6,1.21,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,18,pm_peak,2000,orange,3,50.3,1.192,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,19,pm_peak,1700,orange,3,51.8,1.159,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,20,evening,1400,yellow,2,53.2,1.127,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,21,evening,1100,yellow,2,54.7,1.097,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,22,evening,950,green,1,55.4,1.083,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,regular,23,evening,800,green,1,56.1,1.069,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,0,overnight,860,green,1,55.8,1.075,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,1,overnight,670,green,1,56.8,1.057,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,2,overnight,580,green,1,57.2,1.049,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,3,overnight,530,green,1,57.4,1.045,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,4,overnight,770,green,1,56.3,1.066,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,5,ramp_up,1250,yellow,2,54.0,1.112,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,6,am_peak,1730,orange,3,51.6,1.162,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,7,am_peak,2020,orange,3,50.2,1.195,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,8,am_peak,2210,red,4,49.3,1.217,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,9,am_peak,2020,orange,3,50.2,1.195,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,10,midday,1730,orange,3,51.6,1.162,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,11,midday,1730,orange,3,51.6,1.162,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,12,midday,1820,orange,3,51.2,1.172,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,13,midday,1820,orange,3,51.2,1.172,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,14,midday,1870,orange,3,51.0,1.178,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,15,midday,1920,orange,3,50.7,1.183,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,16,pm_peak,2110,orange,3,49.8,1.205,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,17,pm_peak,2060,orange,3,50.0,1.199,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,18,pm_peak,1920,orange,3,50.7,1.183,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,19,pm_peak,1630,orange,3,52.1,1.151,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,20,evening,1340,yellow,2,53.5,1.121,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,21,evening,1060,green,1,54.9,1.093,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,22,evening,910,green,1,55.6,1.079,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,pre_holiday,23,evening,770,green,1,56.3,1.066,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,0,overnight,760,green,1,56.3,1.065,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,1,overnight,600,green,1,57.1,1.051,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,2,overnight,510,green,1,57.5,1.043,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,3,overnight,470,green,1,57.7,1.039,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,4,overnight,680,green,1,56.7,1.058,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,5,ramp_up,1100,yellow,2,54.7,1.097,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,6,am_peak,1530,yellow,2,52.6,1.141,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,7,am_peak,1780,orange,3,51.4,1.168,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,8,am_peak,1960,orange,3,50.5,1.188,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,9,am_peak,1780,orange,3,51.4,1.168,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,10,midday,1530,yellow,2,52.6,1.141,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,11,midday,1530,yellow,2,52.6,1.141,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,12,midday,1620,yellow,2,52.2,1.15,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,13,midday,1620,yellow,2,52.2,1.15,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,14,midday,1660,orange,3,52.0,1.155,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,15,midday,1700,orange,3,51.8,1.159,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,16,pm_peak,1870,orange,3,51.0,1.178,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,17,pm_peak,1830,orange,3,51.1,1.173,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,18,pm_peak,1700,orange,3,51.8,1.159,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,19,pm_peak,1440,yellow,2,53.0,1.131,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,20,evening,1190,yellow,2,54.2,1.106,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,21,evening,940,green,1,55.5,1.082,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,22,evening,810,green,1,56.1,1.07,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,holiday,23,evening,680,green,1,56.7,1.058,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,0,overnight,900,green,1,55.6,1.078,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,1,overnight,700,green,1,56.6,1.06,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,2,overnight,600,green,1,57.1,1.051,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,3,overnight,550,green,1,57.3,1.046,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,4,overnight,800,green,1,56.1,1.069,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,5,ramp_up,1300,yellow,2,53.7,1.117,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,6,am_peak,1800,orange,3,51.3,1.17,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,7,am_peak,2100,orange,3,49.8,1.204,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,8,am_peak,2300,red,4,48.9,1.228,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,9,am_peak,2100,orange,3,49.8,1.204,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,10,midday,1800,orange,3,51.3,1.17,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,11,midday,1800,orange,3,51.3,1.17,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,12,midday,1900,orange,3,50.8,1.181,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,13,midday,1900,orange,3,50.8,1.181,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,14,midday,1950,orange,3,50.6,1.187,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,15,midday,2000,orange,3,50.3,1.192,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,16,pm_peak,2200,red,4,49.4,1.216,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,17,pm_peak,2150,orange,3,49.6,1.21,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,18,pm_peak,2000,orange,3,50.3,1.192,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,19,pm_peak,1700,orange,3,51.8,1.159,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,20,evening,1400,yellow,2,53.2,1.127,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,21,evening,1100,yellow,2,54.7,1.097,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,22,evening,950,green,1,55.4,1.083,medium,text
+GRY-NB,Grand Royale,McArthur Highway,NB,post_holiday,23,evening,800,green,1,56.1,1.069,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,0,overnight,1000,green,1,55.2,1.088,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,1,overnight,800,green,1,56.1,1.069,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,2,overnight,700,green,1,56.6,1.06,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,3,overnight,650,green,1,56.9,1.055,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,4,overnight,900,green,1,55.6,1.078,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,5,ramp_up,1500,yellow,2,52.7,1.138,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,6,am_peak,2000,orange,3,50.3,1.192,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,7,am_peak,2400,red,4,48.4,1.24,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,8,am_peak,2600,red,4,47.4,1.265,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,9,am_peak,2400,red,4,48.4,1.24,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,10,midday,2200,red,4,49.4,1.216,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,11,midday,2200,red,4,49.4,1.216,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,12,midday,2300,red,4,48.9,1.228,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,13,midday,2300,red,4,48.9,1.228,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,14,midday,2350,red,4,48.6,1.234,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,15,midday,2400,red,4,48.4,1.24,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,16,pm_peak,2550,red,4,47.7,1.259,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,17,pm_peak,2550,red,4,47.7,1.259,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,18,pm_peak,2400,red,4,48.4,1.24,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,19,pm_peak,2000,orange,3,50.3,1.192,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,20,evening,1600,yellow,2,52.3,1.148,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,21,evening,1300,yellow,2,53.7,1.117,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,22,evening,1100,yellow,2,54.7,1.097,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,regular,23,evening,950,green,1,55.4,1.083,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,0,overnight,1000,green,1,55.2,1.088,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,1,overnight,800,green,1,56.1,1.069,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,2,overnight,700,green,1,56.6,1.06,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,3,overnight,650,green,1,56.9,1.055,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,4,overnight,900,green,1,55.6,1.078,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,5,ramp_up,1500,yellow,2,52.7,1.138,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,6,am_peak,2000,orange,3,50.3,1.192,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,7,am_peak,2400,red,4,48.4,1.24,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,8,am_peak,2600,red,4,47.4,1.265,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,9,am_peak,2400,red,4,48.4,1.24,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,10,midday,2200,red,4,49.4,1.216,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,11,midday,2200,red,4,49.4,1.216,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,12,midday,2300,red,4,48.9,1.228,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,13,midday,2300,red,4,48.9,1.228,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,14,midday,2350,red,4,48.6,1.234,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,15,midday,2400,red,4,48.4,1.24,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,16,pm_peak,2550,red,4,47.7,1.259,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,17,pm_peak,2550,red,4,47.7,1.259,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,18,pm_peak,2400,red,4,48.4,1.24,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,19,pm_peak,2000,orange,3,50.3,1.192,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,20,evening,1600,yellow,2,52.3,1.148,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,21,evening,1300,yellow,2,53.7,1.117,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,22,evening,1100,yellow,2,54.7,1.097,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,pre_holiday,23,evening,950,green,1,55.4,1.083,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,0,overnight,920,green,1,55.5,1.08,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,1,overnight,740,green,1,56.4,1.063,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,2,overnight,640,green,1,56.9,1.054,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,3,overnight,600,green,1,57.1,1.051,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,4,overnight,830,green,1,56.0,1.072,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,5,ramp_up,1380,yellow,2,53.3,1.125,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,6,am_peak,1840,orange,3,51.1,1.174,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,7,am_peak,2210,red,4,49.3,1.217,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,8,am_peak,2390,red,4,48.4,1.239,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,9,am_peak,2210,red,4,49.3,1.217,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,10,midday,2020,orange,3,50.2,1.195,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,11,midday,2020,orange,3,50.2,1.195,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,12,midday,2120,orange,3,49.7,1.206,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,13,midday,2120,orange,3,49.7,1.206,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,14,midday,2160,orange,3,49.5,1.211,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,15,midday,2210,red,4,49.3,1.217,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,16,pm_peak,2350,red,4,48.6,1.234,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,17,pm_peak,2350,red,4,48.6,1.234,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,18,pm_peak,2210,red,4,49.3,1.217,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,19,pm_peak,1840,orange,3,51.1,1.174,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,20,evening,1470,yellow,2,52.9,1.134,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,21,evening,1200,yellow,2,54.2,1.107,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,22,evening,1010,green,1,55.1,1.089,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,holiday,23,evening,870,green,1,55.8,1.075,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,0,overnight,980,green,1,55.3,1.086,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,1,overnight,780,green,1,56.2,1.067,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,2,overnight,690,green,1,56.7,1.059,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,3,overnight,640,green,1,56.9,1.054,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,4,overnight,880,green,1,55.7,1.076,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,5,ramp_up,1470,yellow,2,52.9,1.134,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,6,am_peak,1960,orange,3,50.5,1.188,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,7,am_peak,2350,red,4,48.6,1.234,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,8,am_peak,2550,red,4,47.7,1.259,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,9,am_peak,2350,red,4,48.6,1.234,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,10,midday,2160,orange,3,49.5,1.211,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,11,midday,2160,orange,3,49.5,1.211,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,12,midday,2250,red,4,49.1,1.222,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,13,midday,2250,red,4,49.1,1.222,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,14,midday,2300,red,4,48.9,1.228,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,15,midday,2350,red,4,48.6,1.234,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,16,pm_peak,2500,red,4,47.9,1.253,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,17,pm_peak,2500,red,4,47.9,1.253,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,18,pm_peak,2350,red,4,48.6,1.234,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,19,pm_peak,1960,orange,3,50.5,1.188,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,20,evening,1570,yellow,2,52.4,1.145,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,21,evening,1270,yellow,2,53.9,1.114,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,22,evening,1080,green,1,54.8,1.095,medium,text
+GRY-SB,Grand Royale,McArthur Highway,SB,post_holiday,23,evening,930,green,1,55.5,1.081,medium,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,0,overnight,1000,green,1,55.2,1.088,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,1,overnight,800,green,1,56.1,1.069,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,2,overnight,600,green,1,57.1,1.051,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,3,overnight,450,green,1,57.8,1.038,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,4,overnight,400,green,1,58.1,1.033,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,5,ramp_up,900,green,1,55.6,1.078,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,6,am_peak,1400,yellow,2,53.2,1.127,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,7,am_peak,1700,orange,3,51.8,1.159,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,8,am_peak,1950,orange,3,50.6,1.187,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,9,am_peak,1750,orange,3,51.5,1.164,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,10,midday,1600,yellow,2,52.3,1.148,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,11,midday,1500,yellow,2,52.7,1.138,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,12,midday,1500,yellow,2,52.7,1.138,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,13,midday,1450,yellow,2,53.0,1.132,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,14,midday,1400,yellow,2,53.2,1.127,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,15,midday,1450,yellow,2,53.0,1.132,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,16,pm_peak,1500,yellow,2,52.7,1.138,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,17,pm_peak,1100,yellow,2,54.7,1.097,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,18,pm_peak,900,green,1,55.6,1.078,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,19,pm_peak,750,green,1,56.4,1.064,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,20,evening,700,green,1,56.6,1.06,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,21,evening,650,green,1,56.9,1.055,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,22,evening,650,green,1,56.9,1.055,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,regular,23,evening,600,green,1,57.1,1.051,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,0,overnight,1540,yellow,2,52.5,1.142,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,1,overnight,1230,yellow,2,54.0,1.11,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,2,overnight,920,green,1,55.5,1.08,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,3,overnight,690,green,1,56.7,1.059,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,4,overnight,620,green,1,57.0,1.053,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,5,ramp_up,1390,yellow,2,53.3,1.126,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,6,am_peak,2160,orange,3,49.5,1.211,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,7,am_peak,2620,red,4,47.3,1.268,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,8,am_peak,3000,red,5,45.5,1.319,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,9,am_peak,2700,red,4,46.9,1.278,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,10,midday,2460,red,4,48.1,1.247,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,11,midday,2310,red,4,48.8,1.229,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,12,midday,2310,red,4,48.8,1.229,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,13,midday,2230,red,4,49.2,1.219,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,14,midday,2160,orange,3,49.5,1.211,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,15,midday,2230,red,4,49.2,1.219,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,16,pm_peak,2310,red,4,48.8,1.229,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,17,pm_peak,1690,orange,3,51.8,1.158,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,18,pm_peak,1390,yellow,2,53.3,1.126,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,19,pm_peak,1160,yellow,2,54.4,1.103,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,20,evening,1080,green,1,54.8,1.095,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,21,evening,1000,green,1,55.2,1.088,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,22,evening,1000,green,1,55.2,1.088,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,pre_holiday,23,evening,920,green,1,55.5,1.08,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,0,overnight,1310,yellow,2,53.7,1.118,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,1,overnight,1050,green,1,54.9,1.093,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,2,overnight,790,green,1,56.2,1.068,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,3,overnight,590,green,1,57.1,1.05,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,4,overnight,520,green,1,57.5,1.044,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,5,ramp_up,1180,yellow,2,54.3,1.105,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,6,am_peak,1830,orange,3,51.1,1.173,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,7,am_peak,2230,red,4,49.2,1.219,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,8,am_peak,2550,red,4,47.7,1.259,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,9,am_peak,2290,red,4,48.9,1.227,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,10,midday,2100,orange,3,49.8,1.204,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,11,midday,1960,orange,3,50.5,1.188,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,12,midday,1960,orange,3,50.5,1.188,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,13,midday,1900,orange,3,50.8,1.181,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,14,midday,1830,orange,3,51.1,1.173,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,15,midday,1900,orange,3,50.8,1.181,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,16,pm_peak,1960,orange,3,50.5,1.188,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,17,pm_peak,1440,yellow,2,53.0,1.131,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,18,pm_peak,1180,yellow,2,54.3,1.105,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,19,pm_peak,980,green,1,55.3,1.086,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,20,evening,920,green,1,55.5,1.08,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,21,evening,850,green,1,55.9,1.074,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,22,evening,850,green,1,55.9,1.074,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,holiday,23,evening,790,green,1,56.2,1.068,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,0,overnight,1150,yellow,2,54.4,1.102,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,1,overnight,920,green,1,55.5,1.08,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,2,overnight,690,green,1,56.7,1.059,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,3,overnight,520,green,1,57.5,1.044,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,4,overnight,460,green,1,57.8,1.039,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,5,ramp_up,1040,green,1,55.0,1.092,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,6,am_peak,1610,yellow,2,52.2,1.149,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,7,am_peak,1950,orange,3,50.6,1.187,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,8,am_peak,2240,red,4,49.2,1.22,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,9,am_peak,2010,orange,3,50.3,1.193,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,10,midday,1840,orange,3,51.1,1.174,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,11,midday,1720,orange,3,51.7,1.161,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,12,midday,1720,orange,3,51.7,1.161,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,13,midday,1670,orange,3,51.9,1.156,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,14,midday,1610,yellow,2,52.2,1.149,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,15,midday,1670,orange,3,51.9,1.156,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,16,pm_peak,1720,orange,3,51.7,1.161,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,17,pm_peak,1260,yellow,2,53.9,1.113,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,18,pm_peak,1040,green,1,55.0,1.092,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,19,pm_peak,860,green,1,55.8,1.075,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,20,evening,800,green,1,56.1,1.069,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,21,evening,750,green,1,56.4,1.064,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,22,evening,750,green,1,56.4,1.064,low,text
+BPC-NB,Bulacan Polytechnic College,McArthur Highway,NB,post_holiday,23,evening,690,green,1,56.7,1.059,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,0,overnight,800,green,1,56.1,1.069,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,1,overnight,500,green,1,57.6,1.042,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,2,overnight,300,green,1,58.5,1.025,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,3,overnight,200,green,1,59.0,1.016,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,4,overnight,150,green,1,59.3,1.012,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,5,ramp_up,500,green,1,57.6,1.042,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,6,am_peak,1100,yellow,2,54.7,1.097,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,7,am_peak,1750,orange,3,51.5,1.164,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,8,am_peak,1850,orange,3,51.0,1.175,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,9,am_peak,1400,yellow,2,53.2,1.127,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,10,midday,1300,yellow,2,53.7,1.117,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,11,midday,1250,yellow,2,54.0,1.112,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,12,midday,1200,yellow,2,54.2,1.107,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,13,midday,1100,yellow,2,54.7,1.097,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,14,midday,1000,green,1,55.2,1.088,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,15,midday,1000,green,1,55.2,1.088,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,16,pm_peak,1050,green,1,54.9,1.093,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,17,pm_peak,1100,yellow,2,54.7,1.097,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,18,pm_peak,900,green,1,55.6,1.078,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,19,pm_peak,750,green,1,56.4,1.064,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,20,evening,700,green,1,56.6,1.06,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,21,evening,650,green,1,56.9,1.055,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,22,evening,600,green,1,57.1,1.051,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,regular,23,evening,550,green,1,57.3,1.046,low,text
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,0,overnight,960,green,1,55.4,1.084,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,1,overnight,600,green,1,57.1,1.051,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,2,overnight,360,green,1,58.3,1.03,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,3,overnight,240,green,1,58.8,1.02,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,4,overnight,180,green,1,59.1,1.015,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,5,ramp_up,600,green,1,57.1,1.051,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,6,am_peak,1320,yellow,2,53.6,1.119,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,7,am_peak,2100,orange,3,49.8,1.204,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,8,am_peak,2220,red,4,49.3,1.218,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,9,am_peak,1680,orange,3,51.9,1.157,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,10,midday,1560,yellow,2,52.5,1.144,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,11,midday,1500,yellow,2,52.7,1.138,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,12,midday,1440,yellow,2,53.0,1.131,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,13,midday,1320,yellow,2,53.6,1.119,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,14,midday,1200,yellow,2,54.2,1.107,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,15,midday,1200,yellow,2,54.2,1.107,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,16,pm_peak,1260,yellow,2,53.9,1.113,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,17,pm_peak,1320,yellow,2,53.6,1.119,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,18,pm_peak,1080,green,1,54.8,1.095,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,19,pm_peak,900,green,1,55.6,1.078,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,20,evening,840,green,1,55.9,1.073,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,21,evening,780,green,1,56.2,1.067,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,22,evening,720,green,1,56.5,1.062,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,pre_holiday,23,evening,660,green,1,56.8,1.056,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,0,overnight,800,green,1,56.1,1.069,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,1,overnight,500,green,1,57.6,1.042,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,2,overnight,300,green,1,58.5,1.025,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,3,overnight,200,green,1,59.0,1.016,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,4,overnight,150,green,1,59.3,1.012,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,5,ramp_up,500,green,1,57.6,1.042,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,6,am_peak,1100,yellow,2,54.7,1.097,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,7,am_peak,1750,orange,3,51.5,1.164,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,8,am_peak,1850,orange,3,51.0,1.175,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,9,am_peak,1400,yellow,2,53.2,1.127,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,10,midday,1300,yellow,2,53.7,1.117,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,11,midday,1250,yellow,2,54.0,1.112,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,12,midday,1200,yellow,2,54.2,1.107,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,13,midday,1100,yellow,2,54.7,1.097,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,14,midday,1000,green,1,55.2,1.088,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,15,midday,1000,green,1,55.2,1.088,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,16,pm_peak,1050,green,1,54.9,1.093,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,17,pm_peak,1100,yellow,2,54.7,1.097,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,18,pm_peak,900,green,1,55.6,1.078,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,19,pm_peak,750,green,1,56.4,1.064,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,20,evening,700,green,1,56.6,1.06,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,21,evening,650,green,1,56.9,1.055,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,22,evening,600,green,1,57.1,1.051,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,holiday,23,evening,550,green,1,57.3,1.046,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,0,overnight,720,green,1,56.5,1.062,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,1,overnight,450,green,1,57.8,1.038,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,2,overnight,270,green,1,58.7,1.022,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,3,overnight,180,green,1,59.1,1.015,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,4,overnight,140,green,1,59.3,1.011,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,5,ramp_up,450,green,1,57.8,1.038,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,6,am_peak,990,green,1,55.2,1.087,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,7,am_peak,1580,yellow,2,52.4,1.146,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,8,am_peak,1660,orange,3,52.0,1.155,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,9,am_peak,1260,yellow,2,53.9,1.113,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,10,midday,1170,yellow,2,54.3,1.104,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,11,midday,1120,yellow,2,54.6,1.099,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,12,midday,1080,green,1,54.8,1.095,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,13,midday,990,green,1,55.2,1.087,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,14,midday,900,green,1,55.6,1.078,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,15,midday,900,green,1,55.6,1.078,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,16,pm_peak,940,green,1,55.5,1.082,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,17,pm_peak,990,green,1,55.2,1.087,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,18,pm_peak,810,green,1,56.1,1.07,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,19,pm_peak,680,green,1,56.7,1.058,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,20,evening,630,green,1,57.0,1.054,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,21,evening,580,green,1,57.2,1.049,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,22,evening,540,green,1,57.4,1.046,low,assumed
+BPC-SB,Bulacan Polytechnic College,McArthur Highway,SB,post_holiday,23,evening,500,green,1,57.6,1.042,low,assumed
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,0,overnight,350,green,1,58.3,1.029,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,1,overnight,300,green,1,58.5,1.025,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,2,overnight,250,green,1,58.8,1.021,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,3,overnight,200,green,1,59.0,1.016,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,4,overnight,350,green,1,58.3,1.029,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,5,ramp_up,600,green,1,57.1,1.051,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,6,am_peak,900,green,1,55.6,1.078,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,7,am_peak,1550,yellow,2,52.5,1.143,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,8,am_peak,1200,yellow,2,54.2,1.107,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,9,am_peak,1100,yellow,2,54.7,1.097,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,10,midday,1100,yellow,2,54.7,1.097,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,11,midday,1500,yellow,2,52.7,1.138,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,12,midday,2400,red,4,48.4,1.24,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,13,midday,2400,red,4,48.4,1.24,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,14,midday,1600,yellow,2,52.3,1.148,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,15,midday,1300,yellow,2,53.7,1.117,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,16,pm_peak,1200,yellow,2,54.2,1.107,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,17,pm_peak,1250,yellow,2,54.0,1.112,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,18,pm_peak,1250,yellow,2,54.0,1.112,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,19,pm_peak,1200,yellow,2,54.2,1.107,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,20,evening,900,green,1,55.6,1.078,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,21,evening,600,green,1,57.1,1.051,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,22,evening,400,green,1,58.1,1.033,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,regular,23,evening,300,green,1,58.5,1.025,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,0,overnight,280,green,1,58.6,1.023,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,1,overnight,240,green,1,58.8,1.02,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,2,overnight,200,green,1,59.0,1.016,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,3,overnight,160,green,1,59.2,1.013,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,4,overnight,280,green,1,58.6,1.023,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,5,ramp_up,470,green,1,57.7,1.039,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,6,am_peak,710,green,1,56.6,1.061,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,7,am_peak,1220,yellow,2,54.1,1.109,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,8,am_peak,950,green,1,55.4,1.083,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,9,am_peak,870,green,1,55.8,1.075,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,10,midday,870,green,1,55.8,1.075,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,11,midday,1180,yellow,2,54.3,1.105,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,12,midday,1900,orange,3,50.8,1.181,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,13,midday,1900,orange,3,50.8,1.181,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,14,midday,1260,yellow,2,53.9,1.113,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,15,midday,1030,green,1,55.0,1.091,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,16,pm_peak,950,green,1,55.4,1.083,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,17,pm_peak,990,green,1,55.2,1.087,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,18,pm_peak,990,green,1,55.2,1.087,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,19,pm_peak,950,green,1,55.4,1.083,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,20,evening,710,green,1,56.6,1.061,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,21,evening,470,green,1,57.7,1.039,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,22,evening,320,green,1,58.5,1.026,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,pre_holiday,23,evening,240,green,1,58.8,1.02,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,0,overnight,260,green,1,58.7,1.021,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,1,overnight,220,green,1,58.9,1.018,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,2,overnight,180,green,1,59.1,1.015,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,3,overnight,150,green,1,59.3,1.012,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,4,overnight,260,green,1,58.7,1.021,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,5,ramp_up,440,green,1,57.9,1.037,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,6,am_peak,670,green,1,56.8,1.057,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,7,am_peak,1150,yellow,2,54.4,1.102,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,8,am_peak,890,green,1,55.7,1.077,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,9,am_peak,810,green,1,56.1,1.07,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,10,midday,810,green,1,56.1,1.07,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,11,midday,1110,yellow,2,54.6,1.098,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,12,midday,1780,orange,3,51.4,1.168,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,13,midday,1780,orange,3,51.4,1.168,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,14,midday,1180,yellow,2,54.3,1.105,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,15,midday,960,green,1,55.4,1.084,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,16,pm_peak,890,green,1,55.7,1.077,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,17,pm_peak,920,green,1,55.5,1.08,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,18,pm_peak,920,green,1,55.5,1.08,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,19,pm_peak,890,green,1,55.7,1.077,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,20,evening,670,green,1,56.8,1.057,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,21,evening,440,green,1,57.9,1.037,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,22,evening,300,green,1,58.5,1.025,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,holiday,23,evening,220,green,1,58.9,1.018,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,0,overnight,230,green,1,58.9,1.019,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,1,overnight,200,green,1,59.0,1.016,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,2,overnight,170,green,1,59.2,1.014,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,3,overnight,130,green,1,59.4,1.011,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,4,overnight,230,green,1,58.9,1.019,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,5,ramp_up,400,green,1,58.1,1.033,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,6,am_peak,600,green,1,57.1,1.051,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,7,am_peak,1040,green,1,55.0,1.092,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,8,am_peak,800,green,1,56.1,1.069,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,9,am_peak,740,green,1,56.4,1.063,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,10,midday,740,green,1,56.4,1.063,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,11,midday,1010,green,1,55.1,1.089,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,12,midday,1610,yellow,2,52.2,1.149,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,13,midday,1610,yellow,2,52.2,1.149,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,14,midday,1070,green,1,54.8,1.094,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,15,midday,870,green,1,55.8,1.075,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,16,pm_peak,800,green,1,56.1,1.069,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,17,pm_peak,840,green,1,55.9,1.073,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,18,pm_peak,840,green,1,55.9,1.073,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,19,pm_peak,800,green,1,56.1,1.069,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,20,evening,600,green,1,57.1,1.051,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,21,evening,400,green,1,58.1,1.033,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,22,evening,270,green,1,58.7,1.022,medium,text
+STM-NB,Stella Maris,Blas Ople Road,NB,post_holiday,23,evening,200,green,1,59.0,1.016,medium,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,0,overnight,200,green,1,59.0,1.016,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,1,overnight,150,green,1,59.3,1.012,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,2,overnight,100,green,1,59.5,1.008,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,3,overnight,100,green,1,59.5,1.008,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,4,overnight,150,green,1,59.3,1.012,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,5,ramp_up,400,green,1,58.1,1.033,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,6,am_peak,1100,yellow,2,54.7,1.097,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,7,am_peak,2000,orange,3,50.3,1.192,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,8,am_peak,1000,green,1,55.2,1.088,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,9,am_peak,1000,green,1,55.2,1.088,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,10,midday,1050,green,1,54.9,1.093,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,11,midday,1100,yellow,2,54.7,1.097,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,12,midday,1150,yellow,2,54.4,1.102,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,13,midday,1200,yellow,2,54.2,1.107,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,14,midday,1150,yellow,2,54.4,1.102,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,15,midday,1100,yellow,2,54.7,1.097,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,16,pm_peak,1000,green,1,55.2,1.088,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,17,pm_peak,1250,yellow,2,54.0,1.112,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,18,pm_peak,1250,yellow,2,54.0,1.112,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,19,pm_peak,950,green,1,55.4,1.083,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,20,evening,800,green,1,56.1,1.069,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,21,evening,700,green,1,56.6,1.06,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,22,evening,450,green,1,57.8,1.038,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,regular,23,evening,250,green,1,58.8,1.021,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,0,overnight,170,green,1,59.2,1.014,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,1,overnight,120,green,1,59.4,1.01,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,2,overnight,80,green,1,59.6,1.006,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,3,overnight,80,green,1,59.6,1.006,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,4,overnight,120,green,1,59.4,1.01,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,5,ramp_up,330,green,1,58.4,1.027,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,6,am_peak,910,green,1,55.6,1.079,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,7,am_peak,1660,orange,3,52.0,1.155,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,8,am_peak,830,green,1,56.0,1.072,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,9,am_peak,830,green,1,56.0,1.072,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,10,midday,870,green,1,55.8,1.075,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,11,midday,910,green,1,55.6,1.079,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,12,midday,950,green,1,55.4,1.083,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,13,midday,1000,green,1,55.2,1.088,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,14,midday,950,green,1,55.4,1.083,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,15,midday,910,green,1,55.6,1.079,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,16,pm_peak,830,green,1,56.0,1.072,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,17,pm_peak,1040,green,1,55.0,1.092,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,18,pm_peak,1040,green,1,55.0,1.092,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,19,pm_peak,790,green,1,56.2,1.068,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,20,evening,660,green,1,56.8,1.056,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,21,evening,580,green,1,57.2,1.049,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,22,evening,370,green,1,58.2,1.031,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,pre_holiday,23,evening,210,green,1,59.0,1.017,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,0,overnight,150,green,1,59.3,1.012,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,1,overnight,110,green,1,59.5,1.009,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,2,overnight,70,green,1,59.7,1.006,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,3,overnight,70,green,1,59.7,1.006,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,4,overnight,110,green,1,59.5,1.009,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,5,ramp_up,290,green,1,58.6,1.024,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,6,am_peak,800,green,1,56.1,1.069,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,7,am_peak,1460,yellow,2,52.9,1.133,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,8,am_peak,730,green,1,56.5,1.063,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,9,am_peak,730,green,1,56.5,1.063,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,10,midday,770,green,1,56.3,1.066,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,11,midday,800,green,1,56.1,1.069,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,12,midday,840,green,1,55.9,1.073,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,13,midday,880,green,1,55.7,1.076,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,14,midday,840,green,1,55.9,1.073,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,15,midday,800,green,1,56.1,1.069,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,16,pm_peak,730,green,1,56.5,1.063,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,17,pm_peak,910,green,1,55.6,1.079,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,18,pm_peak,910,green,1,55.6,1.079,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,19,pm_peak,690,green,1,56.7,1.059,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,20,evening,580,green,1,57.2,1.049,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,21,evening,510,green,1,57.5,1.043,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,22,evening,330,green,1,58.4,1.027,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,holiday,23,evening,180,green,1,59.1,1.015,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,0,overnight,140,green,1,59.3,1.011,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,1,overnight,100,green,1,59.5,1.008,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,2,overnight,70,green,1,59.7,1.006,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,3,overnight,70,green,1,59.7,1.006,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,4,overnight,100,green,1,59.5,1.008,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,5,ramp_up,270,green,1,58.7,1.022,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,6,am_peak,750,green,1,56.4,1.064,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,7,am_peak,1360,yellow,2,53.4,1.123,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,8,am_peak,680,green,1,56.7,1.058,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,9,am_peak,680,green,1,56.7,1.058,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,10,midday,710,green,1,56.6,1.061,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,11,midday,750,green,1,56.4,1.064,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,12,midday,780,green,1,56.2,1.067,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,13,midday,820,green,1,56.0,1.071,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,14,midday,780,green,1,56.2,1.067,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,15,midday,750,green,1,56.4,1.064,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,16,pm_peak,680,green,1,56.7,1.058,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,17,pm_peak,850,green,1,55.9,1.074,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,18,pm_peak,850,green,1,55.9,1.074,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,19,pm_peak,650,green,1,56.9,1.055,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,20,evening,540,green,1,57.4,1.046,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,21,evening,480,green,1,57.7,1.04,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,22,evening,310,green,1,58.5,1.026,high,text
+STM-SB,Stella Maris,Blas Ople Road,SB,post_holiday,23,evening,170,green,1,59.2,1.014,high,text
