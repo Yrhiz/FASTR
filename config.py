@@ -50,3 +50,37 @@ def load_modes(path=DATA_FILE):
                 "available": row["available"].strip().lower() == "true",
             })
     return modes
+
+
+# =====================================================================
+# Settings for the interactive app (app.py)
+# =====================================================================
+PLACES_FILE = ROOT / "data" / "places.csv"
+PROFILES_FILE = ROOT / "data" / "mode_profiles.csv"
+TRAFFIC_FILE = ROOT / "data" / "malolos_hourly_traffic.csv"   # hourly traffic per counting node, direction, season
+NODES_FILE = ROOT / "data" / "traffic_nodes.csv"             # coordinates of the 9 counting nodes
+ROADS_FILE = ROOT / "data" / "road_segments.csv"             # OSM road segments (name, lanes, speed limit)
+
+# Seasons available in the traffic dataset: (key, label shown in the app)
+SEASONS = [("regular", "Regular day"), ("pre_holiday", "Before a holiday"),
+           ("holiday", "Holiday"), ("post_holiday", "After a holiday")]
+
+# How a trip is matched to the counting nodes (see traffic.py)
+CORRIDOR_KM = 1.0          # nodes within 1 km of the straight line origin -> destination are used
+FALLBACK_NODE_KM = 2.5     # if none, the nearest node is used when it is within 2.5 km
+ROAD_CORRIDOR_KM = 0.15    # road segments within 150 m of the route are listed in the result
+
+# Criteria used by the app. Traffic enters the travel-time estimate and is also
+# shown as a congestion rating; availability is measured as waiting time (minutes).
+APP_CRITERIA = ["Travel time", "Fare", "Traffic", "Waiting time"]
+APP_KEYS = ["time", "fare", "traffic", "wait"]
+APP_COST = np.array([True, True, True, True])           # all four are cost criteria
+APP_WEIGHTS = np.array([0.35, 0.25, 0.25, 0.15])        # default weights (the user may change them)
+
+# Assumptions of the trip estimator - replace them with your gathered data
+CIRCUITY = 1.3        # road distance = straight-line distance x 1.3 (assumed)
+TRAFFIC_K = 0.12      # each congestion level above 1 lowers speed by 12 % of free-flow speed (assumed)
+MIN_DISTANCE_KM = 0.1
+
+# Approximate bounding box of Malolos (lat_min, lat_max, lon_min, lon_max). FASTR covers trips inside it.
+MALOLOS_BOUNDS = (14.74, 14.90, 120.77, 120.88)
