@@ -16,27 +16,26 @@ The repository contains two programs:
 | Program | What it does |
 |---|---|
 | `app.py` | **Interactive web app.** The commuter types any origin and destination in Malolos, chooses the departure time, budget and criterion weights, and gets a recommendation with an explanation. |
-| `main.py` | **Paper reproduction and analysis.** Reproduces the BulSU to Barasoain Church example (Tables 3-6) and generates the tables and figures in `results/`. |
+| `main.py` |**Results and analysis.** Runs the same pipeline as the web app for one report trip (BulSU to Barasoain Church, set in `config.py` as `REPORT_TRIP`) and writes the tables and figures in `results/`. |
 
 ## Repository structure
 
 | File / folder | Purpose |
 |---|---|
 | `app.py`, `templates/index.html` | Web app (Flask) |
-| `service.py` | Connects places, trip estimates, rules, scoring and explanations for one request |
+| `service.py` | Connects places, trip estimates, rules, scoring and explanations for one request (`evaluate_trip` is used by both the web app and `main.py`) |
 | `places.py` | Converts typed places to coordinates and estimates road distance |
 | `traffic.py` | Picks the congestion level of a trip from the traffic dataset (counting nodes near the route, direction, hour, day type) |
 | `roads.py` | Lists the main roads (speed limit, lanes) along a trip from `road_segments.csv` |
-| `trip.py` | Estimates fare, travel time, traffic and waiting time of each mode for a trip |
+| `trip.py` | Estimates fare, travel time, traffic, and waiting time of each mode for a trip |
 | `rules.py` | Stage 1: facts, rules, forward chaining, filtering |
 | `wsm.py` | Stage 2: normalization, weighted score, ranking, full pipeline |
 | `explain.py` | Explanation facility (proof traces) |
 | `analysis.py`, `plots.py`, `main.py` | Sensitivity, break-even weights, runtime test, figures, report |
-| `config.py` | Criteria, weights and settings |
-| `plots.py` | Generating plots |
+| `config.py` | Criteria, weights, report trip and settings |
 | `data/` | Input data (see below) |
 | `results/` | Generated tables (CSV), figures (PNG) and console output |
-| `tests/` | Checks that the code reproduces the paper's tables and that the app works |
+| `tests/` | Checks of the method (hand-computed values), of the app, and that `results/` matches what the app returns |
 
 ## How to run
 
@@ -75,7 +74,7 @@ The place, road and traffic files were built for this project from OpenStreetMap
 | `traffic_nodes.csv` | Coordinates of the 9 counting nodes of the thesis | Check the coordinates |
 | `mode_profiles.csv` | Fare formula, free-flow speed, waiting time (peak / off-peak), traffic exposure, distance limit and service hours of each mode | Your gathered fares, waiting times and service hours |
 | `malolos_hourly_traffic.csv` | Vehicles/hour, speed and congestion level (1-5) for each node, direction, hour and day type (regular, pre-holiday, holiday, post-holiday) | The output of the traffic study |
-| `modes.csv` | The three alternatives of the paper's example (used by `main.py`) | - |
+
 
 How the app estimates a trip (`trip.py`):
 
@@ -87,10 +86,22 @@ How the app estimates a trip (`trip.py`):
 
 The factors 0.12 and 1.3 are assumptions in `config.py` and should be calibrated with your own measurements.
 
-## Main results of the paper example (`python main.py`)
+## Results and how they match the web app (`python main.py`)
 
-- The special-trip tricycle (PHP 80) exceeds the student's PHP 50 budget and is excluded by rule `R1`.
-- Jeepney: score 0.838 (rank 2). Shared tricycle: score 0.913 (rank 1).
-- The ranking did not change in any of the 16 weight-sensitivity runs. The jeepney overtakes only if the fare weight rises above about 0.382 (currently 0.25).
+`main.py` does not use separate data. It calls `service.evaluate_trip()` - the function behind the web app - for the report trip in `config.py`:
+
+> Bulacan State University to Barasoain Church, 8:00 AM, regular day, budget PHP 30, default weights 35 / 25 / 25 / 15, offline distance estimate (straight line x 1.3 = 1.67 km).
+
+Result (`results/table_trip_options.csv`, identical to the web app's "All options" table):
+
+| Option | Fare (PHP) | Travel (min) | Waiting (min) | Traffic | Status | Score | Rank |
+|---|---|---|---|---|---|---|---|
+| Jeepney | 13 | 5.7 | 7.0 | 2.0 | Feasible | 0.911 | 1 |
+| Shared tricycle | 18 | 6.2 | 4.0 | 1.8 | Feasible | 0.904 | 2 |
+| Special-trip tricycle | 37 | 5.0 | 2.0 | 1.8 | Excluded (rule R1: fare 37 > budget 30) | - | - |
+
+The margin between the two feasible options is small (0.007), and 6 of the 16 sensitivity runs change the ranking, so the recommendation depends on the weights. To see the same numbers in the app, start it with `FASTR_ONLINE=0 python app.py` and enter the trip above; with online mode on, the road distance comes from OSRM and the numbers change slightly. `tests/test_app.py` fails if `results/` and the app ever disagree. Run `python main.py` again after changing any data file or setting.
+
+Timings in section F and `fig7_computational_cost.png` depend on the computer; everything else is deterministic.
 
 
