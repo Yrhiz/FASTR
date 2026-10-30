@@ -156,6 +156,38 @@ def test_web_pages():
     assert api.status_code == 200 and api.get_json()["best"] in ("Jeepney", "Shared tricycle")
 
 
+def test_results_folder_matches_the_web_app():
+    """The CSV tables written by main.py must equal what the web app returns for the same trip."""
+    import pandas as pd
+    from config import REPORT_TRIP as T, RESULTS_DIR
+    r = recommend_trip(T["origin"], T["destination"], T["hour"], T["budget"], T["max_wait"],
+                       online=False, season=T["season"])
+    opts = pd.read_csv(RESULTS_DIR / "table_trip_options.csv")
+    assert len(opts) == len(r["rows"])
+    for (_, o), row in zip(opts.iterrows(), r["rows"]):
+        assert o["Option"] == row["name"] and o["Fare (PHP)"] == row["fare"]
+        assert abs(o["Travel time (min)"] - row["time"]) < 1e-9 and abs(o["Waiting (min)"] - row["wait"]) < 1e-9
+        assert abs(o["Traffic (1-5)"] - row["traffic"]) < 1e-9
+        assert (o["Status"] == "Excluded") == row["excluded"]
+        if not row["excluded"]:
+            assert abs(o["Score"] - row["score"]) < 1e-9 and int(o["Rank"]) == row["rank"]
+    scores = pd.read_csv(RESULTS_DIR / "table_scores.csv", index_col=0)
+    assert scores["Score"].idxmax() == r["best"] and abs(scores["Score"].max() - r["best_score"]) < 1e-9
+    filt = pd.read_csv(RESULTS_DIR / "table_filtering.csv")
+    assert set(filt[filt["Decision"] == "Excluded"]["Alternative"]) == {x["name"] for x in r["rows"] if x["excluded"]}
+    page = app.test_client().post("/", data={"origin": T["origin"], "destination": T["destination"], "hour": str(T["hour"]),
+            "budget": str(T["budget"]), "season": T["season"], "w0": "35", "w1": "25", "w2": "25", "w3": "15"}).get_data(as_text=True)
+    assert f"Recommended: {r['best']}" in page and f"{r['best_score']:.3f}" in page
+
+
+def test_api_rejects_bad_input():
+    c = app.test_client()
+    assert c.post("/api/recommend", json={"origin": BULSU, "destination": BARASOAIN, "weights": [1, 2]}).status_code == 400
+    assert c.post("/api/recommend", json={"origin": BULSU, "destination": BARASOAIN, "budget": "abc"}).status_code == 400
+    ok = c.post("/api/recommend", json={"origin": BULSU, "destination": BARASOAIN, "budget": "30"})
+    assert ok.status_code == 200
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:
