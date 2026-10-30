@@ -1,55 +1,32 @@
 """
-config.py - Settings, constants and data loading for FASTR.
+config.py - Settings and constants for FASTR.
 
-All numbers that define the study (criteria, weights, commuter profile) are
+All numbers that define the study (criteria, weights, report trip) are
 kept here so they can be changed in one place.
 """
-import csv
 from pathlib import Path
 
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent
-DATA_FILE = ROOT / "data" / "modes.csv"
 RESULTS_DIR = ROOT / "results"
 
-# ---- Criteria (Table 2 of the paper) ---------------------------------
-CRITERIA = ["Time", "Fare", "Traffic", "Availability"]
-KEYS = ["time", "fare", "traffic", "availability"]      # column names of a mode
-COST = np.array([True, True, True, False])              # C1-C3 are cost, C4 is benefit
+# ---- Criteria: the SAME four criteria are used by the web app and by main.py -------
+# Travel time, fare and waiting time are minutes/pesos (smaller is better); traffic is the
+# congestion exposure of the mode (1 = free flow ... 5 = heavy, smaller is better).
+CRITERIA = ["Travel time", "Fare", "Traffic", "Waiting time"]
+KEYS = ["time", "fare", "traffic", "wait"]              # keys of a mode dictionary (see trip.py)
+COST = np.array([True, True, True, True])               # all four are cost criteria (min / x)
 
-# ---- Weights (Eq. 7): time, fare, traffic, availability -------------
+# ---- Default weights (Eq. 7): time, fare, traffic, waiting; the web app lets the user change them
 WEIGHTS = np.array([0.35, 0.25, 0.25, 0.15])
 TOL = 1e-9                                              # tolerance for sum(w) = 1 and bisection
 
-# ---- Commuter profile used in the illustrative example (Section 4.2) --
-COMMUTER = {"student": True, "budget": 50}              # student with a PHP 50 budget
-
-
-def _number(text):
-    """Convert a CSV cell to int/float; an empty cell becomes None (value not given)."""
-    text = text.strip()
-    if text == "":
-        return None
-    value = float(text)
-    return int(value) if value.is_integer() else value
-
-
-def load_modes(path=DATA_FILE):
-    """Read the transportation alternatives from a CSV file.
-    Returns a list of dictionaries with keys name, time, fare, traffic, availability, available."""
-    modes = []
-    with open(path, newline="", encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            modes.append({
-                "name": row["name"].strip(),
-                "time": _number(row["time"]),
-                "fare": _number(row["fare"]),
-                "traffic": _number(row["traffic"]),
-                "availability": _number(row["availability"]),
-                "available": row["available"].strip().lower() == "true",
-            })
-    return modes
+# ---- The trip reproduced in results/ (main.py).  The web app, started with these same inputs
+# ---- and FASTR_ONLINE=0, returns exactly the numbers written to results/ (tests/test_app.py checks it).
+REPORT_TRIP = {"origin": "Bulacan State University", "destination": "Barasoain Church",
+               "hour": 8, "season": "regular", "budget": 30, "max_wait": None}
+REPORT_ONLINE = False       # results use the offline distance estimate so they are reproducible
 
 
 # =====================================================================
@@ -69,13 +46,6 @@ SEASONS = [("regular", "Regular day"), ("pre_holiday", "Before a holiday"),
 CORRIDOR_KM = 1.0          # nodes within 1 km of the straight line origin -> destination are used
 FALLBACK_NODE_KM = 2.5     # if none, the nearest node is used when it is within 2.5 km
 ROAD_CORRIDOR_KM = 0.15    # road segments within 150 m of the route are listed in the result
-
-# Criteria used by the app. Traffic enters the travel-time estimate and is also
-# shown as a congestion rating; availability is measured as waiting time (minutes).
-APP_CRITERIA = ["Travel time", "Fare", "Traffic", "Waiting time"]
-APP_KEYS = ["time", "fare", "traffic", "wait"]
-APP_COST = np.array([True, True, True, True])           # all four are cost criteria
-APP_WEIGHTS = np.array([0.35, 0.25, 0.25, 0.15])        # default weights (the user may change them)
 
 # Assumptions of the trip estimator - replace them with your gathered data
 CIRCUITY = 1.3        # road distance = straight-line distance x 1.3 (assumed)
