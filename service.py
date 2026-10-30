@@ -4,7 +4,7 @@ service.py - Connects everything for one request: places -> distance -> mode est
 """
 import numpy as np
 
-from config import APP_CRITERIA, APP_COST, APP_KEYS, APP_WEIGHTS
+from config import COST, CRITERIA, KEYS, WEIGHTS
 from explain import explain_exclusion, explain_ranking
 from places import PlaceError, load_places, osrm_route_km, resolve_place, road_distance_km
 from roads import roads_on_route
@@ -15,7 +15,12 @@ from wsm import hybrid_recommend, r3
 
 def normalize_weights(raw):
     """Turn slider values into weights that sum to 1."""
-    raw = np.asarray(raw, dtype=float)
+    try:
+        raw = np.asarray(raw, dtype=float)
+    except (TypeError, ValueError):
+        raise ValueError("The criterion weights must be numbers.")
+    if raw.shape != (len(CRITERIA),):
+        raise ValueError(f"Give exactly {len(CRITERIA)} criterion weights.")
     if (raw < 0).any() or raw.sum() <= 0:
         raise ValueError("Set at least one criterion weight above zero.")
     return raw / raw.sum()
@@ -30,10 +35,12 @@ def _reason(res, name):
     return ""
 
 
-def recommend_trip(origin_text, destination_text, hour, budget=None, max_wait=None,
-                   raw_weights=None, online=True, season="regular"):
-    """Run the whole pipeline. Raises PlaceError / ValueError with user-readable messages."""
-    weights = normalize_weights(APP_WEIGHTS if raw_weights is None else raw_weights)
+def evaluate_trip(origin_text, destination_text, hour, budget=None, max_wait=None,
+                  raw_weights=None, online=True, season="regular"):
+    """Everything up to and including the two FASTR stages. Used by the web app (through
+    recommend_trip) and by main.py, so the results files and the app can never disagree.
+    Raises PlaceError / ValueError with user-readable messages."""
+    weights = normalize_weights(WEIGHTS if raw_weights is None else raw_weights)
     if not 0 <= hour <= 23:
         raise ValueError("The departure hour must be between 0 and 23.")
     if budget is not None and budget < 0:
@@ -56,9 +63,15 @@ def recommend_trip(origin_text, destination_text, hour, budget=None, max_wait=No
     traffic = {hour: (trip_traffic["level"], trip_traffic["is_peak"])}
     modes = build_trip_modes(load_profiles(), distance, hour, traffic)
 
-    commuter = {"student": False, "budget": budget, "max_wait": max_wait}
-    res = hybrid_recommend(commuter, modes, weights, keys=APP_KEYS, cost=APP_COST)
+    commuter = {"budget": budget, "max_wait": max_wait}
+    res = hybrid_recommend(commuter, modes, weights, keys=KEYS, cost=COST)
+    return {"origin": origin, "destination": destination, "distance": distance,
+            "distance_source": distance_source, "trip_traffic": trip_traffic, "season": season,
+            "hour": hour, "modes": modes, "commuter": commuter, "weights": weights, "res": res}
 
+
+def options_rows(modes, res):
+    """One row per option (fare, time, wait, traffic, status, score, rank) - the table of the app."""
     scores = {}
     if res["S"] is not None:
         for m, s, rk in zip(res["feasible"], res["S"], res["ranks"]):
@@ -72,6 +85,18 @@ def recommend_trip(origin_text, destination_text, hour, budget=None, max_wait=No
                      "excluded": excluded, "reason": _reason(res, m["name"]) if excluded else "",
                      "score": score, "rank": rank_})
     rows.sort(key=lambda r: (r["excluded"], r["rank"] or 99))
+    return rows, scores
+
+
+def recommend_trip(origin_text, destination_text, hour, budget=None, max_wait=None,
+                   raw_weights=None, online=True, season="regular"):
+    """Run the whole pipeline and format the answer for the web page / JSON API."""
+    ctx = evaluate_trip(origin_text, destination_text, hour, budget, max_wait, raw_weights, online, season)
+    origin, destination, distance = ctx["origin"], ctx["destination"], ctx["distance"]
+    modes, res, weights, trip_traffic = ctx["modes"], ctx["res"], ctx["weights"], ctx["trip_traffic"]
+    rows, scores = options_rows(modes, res)
+    season = ctx["season"]
+    distance_source = ctx["distance_source"]
 
     explanations = [explain_exclusion(m["name"], res) for m in res["excluded"]]
     if res["S"] is not None:
@@ -89,6 +114,6 @@ def recommend_trip(origin_text, destination_text, hour, budget=None, max_wait=No
             "hour_label": hour_label(hour), "congestion": trip_traffic["level"], "traffic": trip_traffic,
             "roads": roads_on_route(origin, destination), "season": season, "rows": rows,
             "best": res["best"], "best_score": scores[res["best"]][0] if res["best"] else None,
-            "weights": [(c, round(float(w) * 100)) for c, w in zip(APP_CRITERIA, weights)],
+            "weights": [(c, round(float(w) * 100)) for c, w in zip(CRITERIA, weights)],
             "explanations": explanations, "hint": hint, "n_feasible": len(res["feasible"]),
             "passes": res["passes"], "n_rules": res["n_rules"]}
