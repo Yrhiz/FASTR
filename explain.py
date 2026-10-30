@@ -30,6 +30,6 @@ def explain_ranking(result, w=WEIGHTS):
     order = np.argsort(-S)
     lines = [f"WHY is '{feasible[order[0]]['name']}' ranked first?"]
     for i in order:
-        terms = " + ".join(f"({wj:.2f})({r:.3f})" for wj, r in zip(w, R[i]))
+        terms = " + ".join(f"({wj:.3g})({r:.3f})" for wj, r in zip(w, R[i]))
         lines.append(f"  {feasible[i]['name']:<22} S = {terms} = {r3(S[i]):.3f}   (rank {result['ranks'][i]})")
     return "\n".join(lines)
