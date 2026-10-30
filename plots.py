@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from analysis import critical_weight, set_weight, vary_weight
-from config import COMMUTER, CRITERIA, WEIGHTS
+from config import COST, CRITERIA, WEIGHTS
 from rules import rule_filter
 from wsm import r3, score
 
@@ -17,20 +17,21 @@ C_OK, C_BAD = "#66c2a5", "#d95f5f"          # feasible / excluded
 PAL = plt.cm.Set2.colors
 
 
-def fig_rule_filtering(res, modes, out):
+def fig_rule_filtering(res, modes, budget, out):
     """Fares against the budget; excluded modes in red."""
     names = [m["name"] for m in modes]
     fares = [m["fare"] for m in modes]
     fig, ax = plt.subplots(figsize=(7, 4.2))
     colors = [C_BAD if m in res["excluded"] else C_OK for m in modes]
     bars = ax.bar(names, fares, color=colors, edgecolor="black", lw=0.6)
-    ax.axhline(COMMUTER["budget"], color="black", ls="--", lw=1.2)
-    ax.text(-0.45, COMMUTER["budget"] + 2, f"Budget = PHP {COMMUTER['budget']}", ha="left")
+    if budget is not None:
+        ax.axhline(budget, color="black", ls="--", lw=1.2)
+        ax.text(-0.45, budget + 1, f"Budget = PHP {budget:g}", ha="left")
     for b, m in zip(bars, modes):
         label = "Excluded" if m in res["excluded"] else "Feasible"
-        ax.text(b.get_x() + b.get_width() / 2, m["fare"] + 1.5, f"PHP {m['fare']}\n{label}",
+        ax.text(b.get_x() + b.get_width() / 2, m["fare"] + 1.5, f"PHP {m['fare']:g}\n{label}",
                 ha="center", fontsize=9)
-    ax.set_ylim(0, max(fares) * 1.2)
+    ax.set_ylim(0, max(fares + [budget or 0]) * 1.25)
     ax.set_ylabel("Fare (PHP)")
     ax.set_title("Stage 1: rule-based budget filtering")
     fig.tight_layout(); fig.savefig(out / "fig1_rule_filtering.png"); plt.close(fig)
@@ -42,10 +43,10 @@ def fig_normalized(res, out):
     R = res["R"]
     fig, ax = plt.subplots(figsize=(7, 3.2))
     im = ax.imshow(R, cmap="YlGnBu", vmin=0, vmax=1, aspect="auto")
-    ax.set_xticks(range(4)); ax.set_xticklabels(CRITERIA)
+    ax.set_xticks(range(len(CRITERIA))); ax.set_xticklabels(CRITERIA)
     ax.set_yticks(range(len(names))); ax.set_yticklabels(names)
     for i in range(R.shape[0]):
-        for j in range(4):
+        for j in range(len(CRITERIA)):
             ax.text(j, i, f"{r3(R[i, j]):.3f}", ha="center", va="center",
                     color="white" if R[i, j] > 0.45 else "black")
     ax.set_title("Normalized criterion values $r_{ij}$ (1 = best)")
@@ -78,10 +79,10 @@ def fig_sensitivity(res, out, w=WEIGHTS):
     """Scores while each weight changes by -20 % ... +20 %."""
     names = [m["name"] for m in res["feasible"]]
     X = res["X"]
-    fig, axs = plt.subplots(1, 4, figsize=(15, 3.6), sharey=True)
+    fig, axs = plt.subplots(1, len(CRITERIA), figsize=(15, 3.6), sharey=True)
     grid = np.linspace(-0.20, 0.20, 9)
     for j, (ax, c) in enumerate(zip(axs, CRITERIA)):
-        traj = np.array([score(X, vary_weight(w, j, p)) for p in grid])
+        traj = np.array([score(X, vary_weight(w, j, p), COST) for p in grid])
         for i, n in enumerate(names):
             ax.plot(grid * 100, traj[:, i], marker="o", ms=3, color=PAL[i], label=n)
         ax.axvline(0, color="gray", ls=":", lw=1)
@@ -97,38 +98,41 @@ def fig_break_even(res, out, a, b, w=WEIGHTS):
     names = [m["name"] for m in res["feasible"]]
     X = res["X"]
     v = np.linspace(0, 1, 201)
-    curves = np.array([score(X, set_weight(w, 1, x)) for x in v])
-    w_star, _, _ = critical_weight(X, w, 1, a, b)
+    curves = np.array([score(X, set_weight(w, 1, x), COST) for x in v])
+    w_star, _, _ = critical_weight(X, w, 1, a, b, COST)
     fig, ax = plt.subplots(figsize=(7, 4.2))
     for i, n in enumerate(names):
         ax.plot(v, curves[:, i], color=PAL[i], lw=2, label=n)
     ax.axvline(w[1], color="gray", ls=":", lw=1)
-    ax.text(w[1] - 0.01, 0.04, "current\nweight", fontsize=8, color="gray", ha="right",
-            transform=ax.get_xaxis_transform())
+    right = w_star is None or w[1] >= w_star            # put the two labels on opposite sides
+    ax.text(w[1] + (0.01 if right else -0.01), 0.04, f"current\nweight = {w[1]:.2f}", fontsize=8, color="gray",
+            ha="left" if right else "right", transform=ax.get_xaxis_transform())
     if w_star is not None:
         ax.axvline(w_star, color="black", ls="--", lw=1)
-        ax.text(w_star + 0.01, 0.04, f"break-even\n$w_2$ = {w_star:.3f}", fontsize=8,
-                transform=ax.get_xaxis_transform())
+        ax.text(w_star + (-0.01 if right else 0.01), 0.04, f"break-even\n$w_2$ = {w_star:.3f}", fontsize=8,
+                ha="right" if right else "left", transform=ax.get_xaxis_transform())
     ax.set_xlabel("Fare weight $w_2$ (other weights rescaled proportionally)")
     ax.set_ylabel("Weighted score $S_i$")
-    ax.set_title(f"When does the {names[b].lower()} overtake the {names[a].lower()}?")
+    ax.set_title(f"Break-even fare weight: {names[a].lower()} vs. {names[b].lower()}")
     ax.legend(loc="upper center", ncol=2)
     fig.tight_layout(); fig.savefig(out / "fig5_fare_weight_break_even.png"); plt.close(fig)
 
 
-def fig_budget(modes, out):
-    """Number of feasible modes as the student budget grows."""
-    budgets = np.arange(0, 101)
-    counts = [len(rule_filter({"student": True, "budget": b}, modes)["feasible"]) for b in budgets]
+def fig_budget(modes, budget, out):
+    """Number of feasible modes as the budget grows."""
+    top = int(max(m["fare"] for m in modes) * 1.5) + 1
+    budgets = np.arange(0, top + 1)
+    counts = [len(rule_filter({"budget": b}, modes)["feasible"]) for b in budgets]
     fig, ax = plt.subplots(figsize=(7, 4))
     ax.step(budgets, counts, where="post", color=PAL[2], lw=2)
     for m in modes:
         ax.axvline(m["fare"], color="gray", ls=":", lw=1)
-        ax.text(m["fare"] + 1, 0.15, m["name"], rotation=90, fontsize=8, va="bottom")
-    ax.axvline(COMMUTER["budget"], color="black", ls="--", lw=1)
-    ax.text(COMMUTER["budget"] + 1, 2.5, f"example budget\nPHP {COMMUTER['budget']}", fontsize=8)
+        ax.text(m["fare"] + 0.5, 0.15, f"{m['name']} (PHP {m['fare']:g})", rotation=90, fontsize=8, va="bottom")
+    if budget is not None:
+        ax.axvline(budget, color="black", ls="--", lw=1)
+        ax.text(budget + 0.5, len(modes) - 0.5, f"budget\nPHP {budget:g}", fontsize=8)
     ax.set_yticks(range(0, len(modes) + 1))
-    ax.set_xlabel("Student budget (PHP)")
+    ax.set_xlabel("Budget (PHP)")
     ax.set_ylabel("Number of feasible alternatives")
     ax.set_title("Effect of the budget rule on the feasible set")
     fig.tight_layout(); fig.savefig(out / "fig6_budget_vs_feasible.png"); plt.close(fig)
