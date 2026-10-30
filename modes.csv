@@ -1,4 +1,0 @@
-name,time,fare,traffic,availability,available
-Jeepney,30,13,4,4,True
-Shared tricycle,24,20,3,5,True
-Special-trip tricycle,,80,,,True
