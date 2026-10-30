@@ -25,11 +25,11 @@ def normalize(X, cost=COST):
     return np.where(cost, X.min(axis=0) / X, X / X.max(axis=0))
 
 
-def score(X, w=WEIGHTS):
+def score(X, w=WEIGHTS, cost=COST):
     """Weighted score S_i = sum_j w_j * r_ij (Eq. 4 / Eq. 8)."""
     w = np.asarray(w, dtype=float)
     assert abs(w.sum() - 1) < TOL, "weights must sum to 1"
-    return normalize(X) @ w
+    return normalize(X, cost) @ w
 
 
 def rank(s):
@@ -38,7 +38,7 @@ def rank(s):
 
 
 def decision_matrix(modes, keys=KEYS):
-    """Build X (rows = modes; columns follow `keys`, by default Time, Fare, Traffic, Availability)."""
+    """Build X (rows = modes; columns follow `keys`: travel time, fare, traffic, waiting time)."""
     for m in modes:
         missing = [k for k in keys if m[k] is None]
         if missing:
@@ -54,6 +54,8 @@ def hybrid_recommend(commuter, modes, w=WEIGHTS, keys=KEYS, cost=COST):
         return {**stage1, "X": None, "R": None, "S": None, "ranks": None, "best": None}
     X = decision_matrix(feasible, keys)
     R = normalize(X, cost)
-    S = R @ np.asarray(w)
+    w = np.asarray(w, dtype=float)
+    assert abs(w.sum() - 1) < TOL, "weights must sum to 1"
+    S = R @ w
     return {**stage1, "X": X, "R": R, "S": S, "ranks": rank(S),
             "best": feasible[int(np.argmax(S))]["name"]}
