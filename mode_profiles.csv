@@ -1,4 +1,0 @@
-mode,base_fare,base_km,fare_per_km,free_speed_kmh,wait_peak_min,wait_offpeak_min,traffic_exposure,max_distance_km,open_hour,close_hour,fare_source
-Jeepney,13,4,1.8,20,7,5,1.0,,5,21,PHP 13 for the first 4 km (given by the group) - per-km rate to be confirmed
-Shared tricycle,15,1,5.0,18,4,3,0.8,7,5,22,Malolos tricycle fare matrix: PHP 15 first km + PHP 5 per km per person (fixed up to 7 km)
-Special-trip tricycle,30,1,10.0,22,2,1,0.8,7,0,24,Malolos tricycle fare matrix: PHP 30 first km + PHP 10 per km per trip (2 passengers)
