@@ -37,23 +37,23 @@ def rank(s):
     return (-np.asarray(s)).argsort().argsort() + 1
 
 
-def decision_matrix(modes):
-    """Build X (rows = modes; columns = Time, Fare, Traffic, Availability)."""
+def decision_matrix(modes, keys=KEYS):
+    """Build X (rows = modes; columns follow `keys`, by default Time, Fare, Traffic, Availability)."""
     for m in modes:
-        missing = [k for k in KEYS if m[k] is None]
+        missing = [k for k in keys if m[k] is None]
         if missing:
             raise ValueError(f"'{m['name']}' reached the scoring stage but has no value for {missing}")
-    return np.array([[m[k] for k in KEYS] for m in modes], dtype=float)
+    return np.array([[m[k] for k in keys] for m in modes], dtype=float)
 
 
-def hybrid_recommend(commuter, modes, w=WEIGHTS):
+def hybrid_recommend(commuter, modes, w=WEIGHTS, keys=KEYS, cost=COST):
     """Full pipeline: rules first, then WSM on the feasible modes only."""
     stage1 = rule_filter(commuter, modes)
     feasible = stage1["feasible"]
     if not feasible:
         return {**stage1, "X": None, "R": None, "S": None, "ranks": None, "best": None}
-    X = decision_matrix(feasible)
-    R = normalize(X)
+    X = decision_matrix(feasible, keys)
+    R = normalize(X, cost)
     S = R @ np.asarray(w)
     return {**stage1, "X": X, "R": R, "S": S, "ranks": rank(S),
             "best": feasible[int(np.argmax(S))]["name"]}
