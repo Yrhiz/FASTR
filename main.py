@@ -1,4 +1,7 @@
-python main.py
+"""
+main.py - Runs the whole FASTR pipeline and writes tables and figures to ./results/
+
+    python main.py
 
 Steps: A rule-based filtering -> B weighted scoring -> C explanations ->
        D budget scenarios -> E weight sensitivity -> F computational cost -> G figures
@@ -62,8 +65,8 @@ def main():
     budget_df = budget_scenarios(modes, [10, 13, 15, 20, 50, 80, 100])
     print(budget_df.to_string(index=False))
     budget_df.to_csv(RESULTS_DIR / "table_budget_scenarios.csv", index=False)
-    non_student = rule_filter({"student": False, "budget": 50}, modes)["feasible"]
-    print("\nNon-student commuter (budget rule not applicable):", [m["name"] for m in non_student])
+    no_limit = rule_filter({"student": True, "budget": None}, modes)["feasible"]
+    print("\nNo budget limit (budget rule not triggered):", [m["name"] for m in no_limit])
 
     # ---- E. Weight sensitivity ------------------------------------------------
     section("E. Sensitivity of the ranking to the weights")
@@ -92,7 +95,7 @@ def main():
     sizes, t_rules, t_wsm = runtime_test()
     for n, tr, tw in zip(sizes, t_rules, t_wsm):
         print(f"  m = {n:>7,d}   rule filtering = {tr*1000:10.3f} ms   WSM = {tw*1000:9.3f} ms")
-    slope = np.polyfit(np.log(sizes[2:]), np.log(np.array(t_rules[2:]) + np.array(t_wsm[2:]), 1))[0]
+    slope = np.polyfit(np.log(sizes[2:]), np.log(np.array(t_rules[2:]) + np.array(t_wsm[2:])), 1)[0]
     print(f"Empirical log-log slope (m >= 1000): {slope:.2f}  (1 = linear growth, 2 = quadratic growth)")
 
     # ---- G. Figures ------------------------------------------------------------
