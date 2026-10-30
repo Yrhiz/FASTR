@@ -1,2 +1,0 @@
-pass,rule,premises,conclusion
-1,R1_budget[Special-trip tricycle],"['ExceedsBudget(Special-trip tricycle)', 'HasBudget']",Infeasible(Special-trip tricycle)
