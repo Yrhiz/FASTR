@@ -1,0 +1,17 @@
+Criterion,Change,Weights,S_Jeepney,S_Shared tricycle,Best,Ranking changed?
+Travel time,-20%,"[0.28, 0.277, 0.277, 0.166]",0.901,0.902,Shared tricycle,True
+Travel time,-10%,"[0.315, 0.263, 0.263, 0.158]",0.906,0.903,Jeepney,False
+Travel time,+10%,"[0.385, 0.237, 0.237, 0.142]",0.916,0.905,Jeepney,False
+Travel time,+20%,"[0.42, 0.223, 0.223, 0.134]",0.92,0.906,Jeepney,False
+Fare,-20%,"[0.373, 0.2, 0.267, 0.16]",0.905,0.916,Shared tricycle,True
+Fare,-10%,"[0.362, 0.225, 0.258, 0.155]",0.908,0.91,Shared tricycle,True
+Fare,+10%,"[0.338, 0.275, 0.242, 0.145]",0.914,0.898,Jeepney,False
+Fare,+20%,"[0.327, 0.3, 0.233, 0.14]",0.917,0.892,Jeepney,False
+Traffic,-20%,"[0.373, 0.267, 0.2, 0.16]",0.911,0.898,Jeepney,False
+Traffic,-10%,"[0.362, 0.258, 0.225, 0.155]",0.911,0.901,Jeepney,False
+Traffic,+10%,"[0.338, 0.242, 0.275, 0.145]",0.91,0.907,Jeepney,False
+Traffic,+20%,"[0.327, 0.233, 0.3, 0.14]",0.91,0.911,Shared tricycle,True
+Waiting time,-20%,"[0.362, 0.259, 0.259, 0.12]",0.923,0.901,Jeepney,False
+Waiting time,-10%,"[0.356, 0.254, 0.254, 0.135]",0.917,0.902,Jeepney,False
+Waiting time,+10%,"[0.344, 0.246, 0.246, 0.165]",0.905,0.906,Shared tricycle,True
+Waiting time,+20%,"[0.338, 0.241, 0.241, 0.18]",0.899,0.908,Shared tricycle,True

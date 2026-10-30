@@ -1,0 +1,5 @@
+Criterion,Base weight,Break-even weight
+Travel time,0.35,0.288
+Fare,0.25,0.2318
+Traffic,0.25,0.2962
+Waiting time,0.15,0.1628

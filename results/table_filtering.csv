@@ -1,0 +1,4 @@
+Alternative,Fare (PHP),Budget (PHP),Decision
+Jeepney,13,30,Feasible
+Shared tricycle,18,30,Feasible
+Special-trip tricycle,37,30,Excluded

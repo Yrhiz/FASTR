@@ -1,0 +1,108 @@
+Trip: Bulacan State University (Main Campus) -> Barasoain Church | 8:00 | day type: regular
+Distance: 1.67 km (straight-line distance x 1.3 (estimate)) | congestion level 2/5 (counting nodes within 1 km of the route)
+
+==========================================================================
+A. Stage 1 - Rule-based filtering (forward chaining)
+==========================================================================
+Commuter: budget = PHP 30
+Rule base: 15 rules | forward-chaining passes until fixed point: 2 | facts derived: 1
+
+          Alternative  Fare (PHP)  Budget (PHP) Decision
+              Jeepney          13            30 Feasible
+      Shared tricycle          18            30 Feasible
+Special-trip tricycle          37            30 Excluded
+
+==========================================================================
+B. Stage 2 - Weighted scoring of the feasible alternatives
+==========================================================================
+Raw data of the feasible alternatives:
+                 Travel time  Fare  Traffic  Waiting time
+Jeepney                 5.69  13.0      2.0           7.0
+Shared tricycle         6.15  18.0      1.8           4.0
+
+Normalized values (all criteria are cost criteria: min / x):
+                 Travel time  Fare  Traffic  Waiting time
+Jeepney                1.000 1.000    0.900         0.571
+Shared tricycle        0.925 0.722    1.000         1.000
+
+Scores and ranking, weights [0.35, 0.25, 0.25, 0.15] :
+                 Travel time  Fare  Traffic  Waiting time  Score  Rank
+Jeepney                1.000 1.000    0.900         0.571  0.911     1
+Shared tricycle        0.925 0.722    1.000         1.000  0.904     2
+
+Score difference: 0.911 - 0.904 = 0.007
+
+All options (same table as the web app):
+               Option  Fare (PHP)  Travel time (min)  Waiting (min)  Traffic (1-5)   Status  Score  Rank
+              Jeepney          13                5.7            7.0            2.0 Feasible  0.911     1
+      Shared tricycle          18                6.2            4.0            1.8 Feasible  0.904     2
+Special-trip tricycle          37                5.0            2.0            1.8 Excluded    NaN  <NA>
+
+==========================================================================
+C. Explanation facility (proof traces)
+==========================================================================
+WHY was 'Special-trip tricycle' excluded?
+  Rule R1_budget[Special-trip tricycle] fired in pass 1:
+    - fact ExceedsBudget(Special-trip tricycle)  [fare PHP 37 > budget PHP 30]
+    - fact HasBudget  [commuter set a budget limit of PHP 30]
+    => Infeasible(Special-trip tricycle)  (removed before scoring, not given a low score)
+
+WHY is 'Jeepney' ranked first?
+  Jeepney                S = (0.35)(1.000) + (0.25)(1.000) + (0.25)(0.900) + (0.15)(0.571) = 0.911   (rank 1)
+  Shared tricycle        S = (0.35)(0.925) + (0.25)(0.722) + (0.25)(1.000) + (0.15)(1.000) = 0.904   (rank 2)
+
+==========================================================================
+D. Effect of the budget rule: feasible set vs. budget
+==========================================================================
+ Budget (PHP)                           Feasible alternatives             Recommended
+           12                                            none No feasible alternative
+           13                                         Jeepney                 Jeepney
+           17                                         Jeepney                 Jeepney
+           18                        Jeepney, Shared tricycle                 Jeepney
+           36                        Jeepney, Shared tricycle                 Jeepney
+           37 Jeepney, Shared tricycle, Special-trip tricycle   Special-trip tricycle
+           57 Jeepney, Shared tricycle, Special-trip tricycle   Special-trip tricycle
+
+No budget limit (budget rule not triggered): ['Jeepney', 'Shared tricycle', 'Special-trip tricycle']
+
+==========================================================================
+E. Sensitivity of the ranking to the weights
+==========================================================================
+   Criterion Change                      Weights  S_Jeepney  S_Shared tricycle            Best  Ranking changed?
+ Travel time   -20%  [0.28, 0.277, 0.277, 0.166]      0.901              0.902 Shared tricycle              True
+ Travel time   -10% [0.315, 0.263, 0.263, 0.158]      0.906              0.903         Jeepney             False
+ Travel time   +10% [0.385, 0.237, 0.237, 0.142]      0.916              0.905         Jeepney             False
+ Travel time   +20%  [0.42, 0.223, 0.223, 0.134]      0.920              0.906         Jeepney             False
+        Fare   -20%    [0.373, 0.2, 0.267, 0.16]      0.905              0.916 Shared tricycle              True
+        Fare   -10% [0.362, 0.225, 0.258, 0.155]      0.908              0.910 Shared tricycle              True
+        Fare   +10% [0.338, 0.275, 0.242, 0.145]      0.914              0.898         Jeepney             False
+        Fare   +20%    [0.327, 0.3, 0.233, 0.14]      0.917              0.892         Jeepney             False
+     Traffic   -20%    [0.373, 0.267, 0.2, 0.16]      0.911              0.898         Jeepney             False
+     Traffic   -10% [0.362, 0.258, 0.225, 0.155]      0.911              0.901         Jeepney             False
+     Traffic   +10% [0.338, 0.242, 0.275, 0.145]      0.910              0.907         Jeepney             False
+     Traffic   +20%    [0.327, 0.233, 0.3, 0.14]      0.910              0.911 Shared tricycle              True
+Waiting time   -20%  [0.362, 0.259, 0.259, 0.12]      0.923              0.901         Jeepney             False
+Waiting time   -10% [0.356, 0.254, 0.254, 0.135]      0.917              0.902         Jeepney             False
+Waiting time   +10% [0.344, 0.246, 0.246, 0.165]      0.905              0.906 Shared tricycle              True
+Waiting time   +20%  [0.338, 0.241, 0.241, 0.18]      0.899              0.908 Shared tricycle              True
+
+Runs where the ranking changed: 6 / 16
+
+Break-even weights (Shared tricycle ties with Jeepney; other weights rescaled):
+  Travel time  : w* = 0.2880 (base 0.35) | bisection iterations = 29 | |bisection - exact| = 2.0e-11
+  Fare         : w* = 0.2318 (base 0.25) | bisection iterations = 29 | |bisection - exact| = 1.1e-10
+  Traffic      : w* = 0.2962 (base 0.25) | bisection iterations = 29 | |bisection - exact| = 3.8e-13
+  Waiting time : w* = 0.1628 (base 0.15) | bisection iterations = 29 | |bisection - exact| = 6.1e-10
+
+==========================================================================
+F. Computational cost (rule filtering + WSM) vs. number of modes
+==========================================================================
+  m =      10   rule filtering =      0.116 ms   WSM =     0.028 ms
+  m =     100   rule filtering =      1.139 ms   WSM =     0.079 ms
+  m =   1,000   rule filtering =     12.990 ms   WSM =     0.548 ms
+  m =  10,000   rule filtering =    118.333 ms   WSM =     3.729 ms
+  m = 100,000   rule filtering =   2077.364 ms   WSM =    41.481 ms
+Empirical log-log slope (m >= 1000): 1.10  (1 = linear growth, 2 = quadratic growth)
+(Timings depend on the computer; every other number above is deterministic.)
+
+Done. Tables and figures saved in results/
