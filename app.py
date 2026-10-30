@@ -9,7 +9,7 @@ import os
 
 from flask import Flask, jsonify, render_template, request
 
-from config import APP_CRITERIA, APP_WEIGHTS, SEASONS
+from config import CRITERIA, SEASONS, WEIGHTS
 from places import PlaceError, load_places, suggested_places
 from service import recommend_trip
 from trip import hour_label
@@ -18,7 +18,7 @@ app = Flask(__name__)
 ONLINE = os.environ.get("FASTR_ONLINE", "1") == "1"
 
 DEFAULT_FORM = {"origin": "", "destination": "", "hour": "8", "budget": "50", "no_budget": "",
-                "max_wait": "", "season": "regular", "w": [str(round(w * 100)) for w in APP_WEIGHTS]}
+                "max_wait": "", "season": "regular", "w": [str(round(w * 100)) for w in WEIGHTS]}
 
 
 def _number(text, name):
@@ -50,7 +50,7 @@ def index():
         except (PlaceError, ValueError) as exc:
             error = str(exc)
     return render_template("index.html", form=form, result=result, error=error,
-                           places=suggested_places(load_places()), criteria=APP_CRITERIA, seasons=SEASONS,
+                           places=suggested_places(load_places()), criteria=CRITERIA, seasons=SEASONS,
                            hours=[(h, hour_label(h)) for h in range(24)], online=ONLINE)
 
 
@@ -60,7 +60,9 @@ def api_recommend():
     data = request.get_json(force=True, silent=True) or {}
     try:
         result = recommend_trip(data.get("origin", ""), data.get("destination", ""), int(data.get("hour", 8)),
-                                data.get("budget"), data.get("max_wait"), data.get("weights"), online=ONLINE,
+                                _number(str(data.get("budget") or ""), "Budget"),
+                                _number(str(data.get("max_wait") or ""), "Maximum waiting time"),
+                                data.get("weights"), online=ONLINE,
                                 season=data.get("season", "regular"))
     except (PlaceError, ValueError) as exc:
         return jsonify({"error": str(exc)}), 400
