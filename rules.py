@@ -5,6 +5,14 @@ Implements Eq. (1) of the paper:
     Premises(R_k) is a subset of F  =>  add Conclusion(R_k) to F
 and the budget rule of Eq. (6):
     Fare(a) > Budget(x)  =>  Infeasible(a, x)
+
+Rule base (five rules per mode):
+    R1  HasBudget AND ExceedsBudget(a)      => Infeasible(a)   budget limit        (Eq. 6)
+    R2  Unavailable(a)                      => Infeasible(a)   mode not operating
+    R3  Closed(a)                           => Infeasible(a)   outside service hours
+    R4  TooFar(a)                           => Infeasible(a)   trip longer than the mode's limit
+    R5  HasWaitLimit AND ExceedsMaxWait(a)  => Infeasible(a)   waiting time limit
+A mode dictionary may contain the optional keys open, too_far, wait, closed_note and far_note.
 """
 from dataclasses import dataclass
 
@@ -26,6 +34,13 @@ def build_facts(commuter, modes):
         facts.add("Student")
         notes["Student"] = "commuter is a student"
     budget = commuter.get("budget")
+    max_wait = commuter.get("max_wait")
+    if budget is not None:
+        facts.add("HasBudget")
+        notes["HasBudget"] = f"commuter set a budget limit of PHP {budget:g}"
+    if max_wait is not None:
+        facts.add("HasWaitLimit")
+        notes["HasWaitLimit"] = f"commuter accepts at most {max_wait:g} min of waiting"
     for m in modes:
         n = m["name"]
         if m["available"]:
@@ -36,20 +51,30 @@ def build_facts(commuter, modes):
             notes[f"Unavailable({n})"] = "mode is not operating"
         if budget is not None and m["fare"] > budget:
             facts.add(f"ExceedsBudget({n})")
-            notes[f"ExceedsBudget({n})"] = f"fare PHP {m['fare']} > budget PHP {budget}"
+            notes[f"ExceedsBudget({n})"] = f"fare PHP {m['fare']:g} > budget PHP {budget:g}"
+        if not m.get("open", True):
+            facts.add(f"Closed({n})")
+            notes[f"Closed({n})"] = m.get("closed_note", "mode is not operating at this hour")
+        if m.get("too_far", False):
+            facts.add(f"TooFar({n})")
+            notes[f"TooFar({n})"] = m.get("far_note", "trip is too long for this mode")
+        if max_wait is not None and m.get("wait") is not None and m["wait"] > max_wait:
+            facts.add(f"ExceedsMaxWait({n})")
+            notes[f"ExceedsMaxWait({n})"] = f"waiting time {m['wait']:g} min > limit {max_wait:g} min"
     return facts, notes
 
 
 def build_rules(modes):
-    """Two rules per mode:
-         R1: Student AND ExceedsBudget(a)  =>  Infeasible(a)      (Eq. 6)
-         R2: Unavailable(a)                =>  Infeasible(a)
-    """
+    """Create the rule base (see the module docstring)."""
     rules = []
     for m in modes:
         n = m["name"]
-        rules.append(Rule(f"R1_budget[{n}]", frozenset({"Student", f"ExceedsBudget({n})"}), f"Infeasible({n})"))
-        rules.append(Rule(f"R2_unavailable[{n}]", frozenset({f"Unavailable({n})"}), f"Infeasible({n})"))
+        out = f"Infeasible({n})"
+        rules.append(Rule(f"R1_budget[{n}]", frozenset({"HasBudget", f"ExceedsBudget({n})"}), out))
+        rules.append(Rule(f"R2_unavailable[{n}]", frozenset({f"Unavailable({n})"}), out))
+        rules.append(Rule(f"R3_closed[{n}]", frozenset({f"Closed({n})"}), out))
+        rules.append(Rule(f"R4_too_far[{n}]", frozenset({f"TooFar({n})"}), out))
+        rules.append(Rule(f"R5_max_wait[{n}]", frozenset({"HasWaitLimit", f"ExceedsMaxWait({n})"}), out))
     return rules
 
 
